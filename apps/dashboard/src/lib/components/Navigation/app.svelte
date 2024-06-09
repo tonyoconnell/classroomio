@@ -125,7 +125,7 @@
   a {
     text-decoration: none;
     color: #fff;
-    font-weight: 700;
+    font-weight: 800;
   }
 
   @media only screen and (max-width: 1002px) {
