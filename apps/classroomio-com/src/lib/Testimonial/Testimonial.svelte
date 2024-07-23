@@ -1,6 +1,4 @@
-<script>
-  import SenjaEmbed from '$lib/Senja/Embed.svelte';
-</script>
+
 
 <section id="testimonial" class="flex flex-col items-center py-[5%] px-3 lg:px-0">
   <h1

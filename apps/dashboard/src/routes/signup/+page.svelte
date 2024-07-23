@@ -15,7 +15,6 @@
   import { currentOrg } from '$lib/utils/store/org';
   import { capturePosthogEvent } from '$lib/utils/services/posthog';
   import { globalStore } from '$lib/utils/store/app';
-  import SenjaEmbed from '$lib/components/Senja/Embed.svelte';
 
   let supabase = getSupabase();
   let fields = Object.assign({}, SIGNUP_FIELDS);
