@@ -293,7 +293,6 @@
 
 <Theme bind:theme={carbonTheme} />
 
-<UpgradeModal />
 <Snackbar />
 
 {#if data.skipAuth}

@@ -53,7 +53,7 @@
 </script>
 
 <svelte:head>
-  <title>Rebuild You - The classroom software</title>
+  <title>Rebuild You</title>
 </svelte:head>
 
 <div class="md:h-[93vh] w-screen flex items-center justify-center flex-col m-2 sm:m-0 font-sans">
@@ -65,7 +65,7 @@
       data-atf="1"
     />
   -->
-  <div>
+  <div> 
     <h3 class="dark:text-white text-4xl text-center">
       Classroom<span class="text-primary-700">IO</span>
     </h3>
