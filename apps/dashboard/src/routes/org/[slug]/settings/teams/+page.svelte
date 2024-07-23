@@ -18,7 +18,6 @@
       <h1 class="dark:text-white text-3xl font-bold">{$t('upgrade.team_members')}</h1>
     </div>
 
-    <UpgradeBanner>{$t('upgrade.team')}</UpgradeBanner>
     <TeamMembers />
   </div>
 </section>
