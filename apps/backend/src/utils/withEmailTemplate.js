@@ -138,8 +138,8 @@ const withEmailTemplate = (content) =>
       color: #1e293b;
     ">
   <div class="gutter">
-    <a href="https://classroomio.com" target="_blank">
-      <img src="https://brand.cdn.clsrio.com/cio-bg-transparent.png" alt="ClassroomIO Logo" /></a>
+    <a href="https://rebuildyou.uk" target="_blank">
+      <img src="https://brand.cdn.clsrio.com/cio-bg-transparent.png" alt="Rebuild You Logo" /></a>
   </div>
   <div class="wrap" style="
         background-color: #fff;
@@ -176,7 +176,7 @@ const withEmailTemplate = (content) =>
       </tr>
     </table>
     <p style="padding-top: 8px; line-height: initial">
-      ClassroomIO ${new Date().getFullYear()}. All rights reserved.<br />
+      Rebuild You ${new Date().getFullYear()}. All rights reserved.<br />
       <a style="text-decoration: none" href="https://app.enzuzo.com/policies/tos/958fc978-5477-11ee-a03b-7b111830c594"
         target="_blank">Terms</a>
       |

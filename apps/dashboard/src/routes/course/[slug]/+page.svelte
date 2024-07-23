@@ -41,8 +41,8 @@
   <meta property="og:image:secure_url" itemprop="image" content={get(data.course, 'logo', '')} />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta property="twitter:domain" content="classroomio.com" />
-  <meta property="twitter:url" content="https://www.classroomio.com/" />
+  <meta property="twitter:domain" content="rebuildyou.uk" />
+  <meta property="twitter:url" content="https://www.rebuildyou.uk/" />
   <meta name="twitter:title" content={get(data.course, 'title', '')} />
   <meta name="twitter:description" content={get(data.course, 'description', '')} />
   <meta name="twitter:image" content={get(data.course, 'logo', '')} />

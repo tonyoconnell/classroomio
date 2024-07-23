@@ -42,7 +42,7 @@ export const currentOrgDomain = derived(currentOrg, ($currentOrg) => {
   return browserOrigin
     ? browserOrigin
     : $currentOrg.siteName
-      ? `https://${$currentOrg.siteName}.classroomio.com`
+      ? `https://${$currentOrg.siteName}.rebuildyou.uk`
       : '';
 });
 

@@ -27,7 +27,7 @@
   const steps = [
     {
       title: 'Sign up',
-      subText: 'Create a free account on our platform by going to classroomio.com/signup'
+      subText: 'Create a free account on our platform by going to rebuildyou.uk/signup'
     },
     {
       title: 'Record a course',
@@ -46,7 +46,7 @@
 
   let faqs = [
     {
-      question: 'What kind of tutors does ClassroomIO look for?',
+      question: 'What kind of tutors does Rebuild You look for?',
       answer:
         'We are looking for all kinds of tutors. The most important thing is that you have some experience teaching and you have proven track record of excellent communication',
       showAnswer: false
@@ -80,26 +80,26 @@
   <meta
     property="og:image"
     itemprop="image"
-    content="https://classroomio.com/teach/teacher-banner.png"
+    content="https://rebuildyou.uk/teach/teacher-banner.png"
   />
   <meta property="og:title" content="Teach on ClassroomIO" />
   <meta
     property="og:description"
-    content="On ClassroomIO you can make side income while doing what you love."
+    content="On Rebuild You you can make side income while doing what you love."
   />
 
   <meta
     property="og:image:secure_url"
     itemprop="image"
-    content="https://classroomio.com/teach/teacher-banner.png"
+    content="https://rebuildyou.uk/teach/teacher-banner.png"
   />
 
   <meta name="twitter:title" content="Teach on ClassroomIO" />
   <meta
     name="twitter:description"
-    content="On ClassroomIO you can make side income while doing what you love."
+    content="On Rebuild You you can make side income while doing what you love."
   />
-  <meta name="twitter:image" content="https://classroomio.com/teach/teacher-banner.png" />
+  <meta name="twitter:image" content="https://rebuildyou.uk/teach/teacher-banner.png" />
 </svelte:head>
 
 <section>

@@ -5,7 +5,7 @@
 
 {#if $isFreePlan}
   <a
-    href={`https://classroomio.com?utm_source=${$currentOrg.siteName}.classroomio.com`}
+    href={`https://rebuildyou.uk?utm_source=${$currentOrg.siteName}.rebuildyou.uk`}
     target="_blank"
     class="group fixed bottom-6 right-9 z-50 hover:no-underline"
   >

@@ -87,7 +87,7 @@
         <!-- Org Site Name -->
         <TextField
           label="URL"
-          helperMessage={`https://${siteName || ''}.classroomio.com`}
+          helperMessage={`https://${siteName || ''}.rebuildyou.uk`}
           bind:value={siteName}
           type="text"
           placeholder="e.g traversymedia"

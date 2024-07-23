@@ -6,7 +6,7 @@
   <h1
     class="mx-auto text-3xl md:text-4xl lg:text-6xl font-normal leading-[1.5] flex flex-col items-center gap-4"
   >
-    Hear from Happy ClassroomIO Users
+    Hear from Happy Rebuild You Users
   </h1>
 
   <p

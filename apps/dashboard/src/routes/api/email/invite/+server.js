@@ -45,10 +45,10 @@ export async function POST({ request }) {
   const emailData = [
     {
       to: email,
-      subject: `Join ${name} on ClassroomIO 😃`,
+      subject: `Join ${name} on Rebuild You 😃`,
       content: `
     <p>Hey there,</p>
-      <p> You have been invited to join ${name} on ClassroomIO 🎉🎉🎉.</p>
+      <p> You have been invited to join ${name} on Rebuild You 🎉🎉🎉.</p>
       <div>
         <a class="button" href="${inviteLink}">Accept Invitation</a>
       </div>

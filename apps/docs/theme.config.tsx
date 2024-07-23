@@ -22,25 +22,25 @@ const config: DocsThemeConfig = {
         href={`${process.env.imagePath}/img/logo-32.png`}
       />
 
-      <title>ClassroomIO – Launch Your Online Bootcamp In Minutes</title>
+      <title>Rebuild You – Launch Your Online Bootcamp In Minutes</title>
       <meta
         name="description"
         content="Launch your bootcamp quickly and affordably with ClassroomIO, the customizable online teaching platform."
       />
 
-      <meta property="og:url" content="https://classroomio.com/docs" />
+      <meta property="og:url" content="https://rebuildyou.uk/docs" />
       <meta property="og:type" content="website" />
-      <meta property="og:title" content="ClassroomIO – Launch Your Online Bootcamp In Minutes" />
+      <meta property="og:title" content="Rebuild You – Launch Your Online Bootcamp In Minutes" />
       <meta
         property="og:description"
         content="Launch your bootcamp quickly and affordably with ClassroomIO, the customizable online teaching platform."
       />
-      <meta property="og:image" content="https://classroomio.com/classroomio-opengraph-image.png" />
+      <meta property="og:image" content="https://rebuildyou.uk/classroomio-opengraph-image.png" />
 
       <meta name="twitter:card" content="summary_large_image" />
-      <meta property="twitter:domain" content="classroomio.com" />
-      <meta property="twitter:url" content="https://classroomio.com/docs" />
-      <meta name="twitter:title" content="ClassroomIO – Launch Your Online Bootcamp In Minutes" />
+      <meta property="twitter:domain" content="rebuildyou.uk" />
+      <meta property="twitter:url" content="https://rebuildyou.uk/docs" />
+      <meta name="twitter:title" content="Rebuild You – Launch Your Online Bootcamp In Minutes" />
       <meta
         name="twitter:description"
         content="Launch your bootcamp quickly and affordably with ClassroomIO, the customizable online teaching platform."
@@ -48,7 +48,7 @@ const config: DocsThemeConfig = {
       <meta name="twitter:creator" content="@classroomio" />
       <meta
         name="twitter:image"
-        content="https://classroomio.com/classroomio-opengraph-image.png"
+        content="https://rebuildyou.uk/classroomio-opengraph-image.png"
       />
     </>
   ),
@@ -56,11 +56,11 @@ const config: DocsThemeConfig = {
     <div style={{ display: 'flex', alignItems: 'center' }}>
       <img
         src={`${process.env.imagePath}/img/logo-512.png`}
-        alt={'ClassroomIO logo'}
+        alt={'Rebuild You logo'}
         width={32}
         height={32}
       />
-      <span style={{ marginLeft: '5px', lineHeight: '15px' }}>ClassroomIO Docs</span>
+      <span style={{ marginLeft: '5px', lineHeight: '15px' }}>Rebuild You Docs</span>
     </div>
   ),
   navbar: {
@@ -73,7 +73,7 @@ const config: DocsThemeConfig = {
           borderRadius: 5,
           padding: '2px 7px'
         }}
-        href="https://app.classroomio.com"
+        href="https://app.rebuildyou.uk"
       >
         Dashboard ↗
       </a>
@@ -84,10 +84,10 @@ const config: DocsThemeConfig = {
   },
   useNextSeoProps() {
     return {
-      titleTemplate: 'ClassroomIO Documentation',
+      titleTemplate: 'Rebuild You Documentation',
       openGraph: {
-        siteName: 'ClassroomIO Docs',
-        title: 'ClassroomIO Documentation',
+        siteName: 'Rebuild You Docs',
+        title: 'Rebuild You Documentation',
         description:
           'Launch your bootcamp quickly and affordably with ClassroomIO, the customizable online teaching platform.',
         images: [
@@ -95,35 +95,35 @@ const config: DocsThemeConfig = {
             url: `${process.env.imagePath}/img/logo-16.png`,
             width: 16,
             height: 16,
-            alt: 'ClassroomIO Docs Og Image Alt',
+            alt: 'Rebuild You Docs Og Image Alt',
             type: 'image/png'
           },
           {
             url: `${process.env.imagePath}/img/logo-32.png`,
             width: 32,
             height: 32,
-            alt: 'ClassroomIO Docs Og Image Alt',
+            alt: 'Rebuild You Docs Og Image Alt',
             type: 'image/png'
           },
           {
             url: `${process.env.imagePath}/img/logo-192.png`,
             width: 192,
             height: 192,
-            alt: 'ClassroomIO Docs Og Image Alt',
+            alt: 'Rebuild You Docs Og Image Alt',
             type: 'image/png'
           },
           {
             url: `${process.env.imagePath}/img/logo-512.png`,
             width: 512,
             height: 512,
-            alt: 'ClassroomIO Docs Og Image Alt',
+            alt: 'Rebuild You Docs Og Image Alt',
             type: 'image/png'
           },
           { url: `${process.env.imagePath}/img/og-image.png'` }
         ],
         twitter: {
           handle: '@classroomio',
-          site: '@classroomio.com',
+          site: '@rebuildyou.uk',
           cardType: 'summary_large_image'
         }
       }
@@ -138,7 +138,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/rotimi-best/classroomio/tree/main/apps/docs',
   footer: {
-    text: 'ClassroomIO Docs'
+    text: 'Rebuild You Docs'
   }
 };
 

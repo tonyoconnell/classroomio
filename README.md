@@ -1,10 +1,10 @@
-<a href="https://classroomio.com/">
-  <img alt="ClassroomIO is a no-code tool that allows you build and scale your online bootcamp with ease." src="https://raw.githubusercontent.com/rotimi-best/classroomio/main/apps/classroomio-com/static/classroomio-opengraph-image.png" />
+<a href="https://rebuildyou.uk/">
+  <img alt="Rebuild You is a no-code tool that allows you build and scale your online bootcamp with ease." src="https://raw.githubusercontent.com/rotimi-best/classroomio/main/apps/classroomio-com/static/classroomio-opengraph-image.png" />
   <h1 align="center">ClassroomIO.com</h1>
   <p align="center">
     Launch Your Online Bootcamp In Minutes
     <br />
-    <a href="https://classroomio.com">Website</a>  |  <a href="https://dub.sh/ciodiscord">Join Discord community</a>
+    <a href="https://rebuildyou.uk">Website</a>  |  <a href="https://dub.sh/ciodiscord">Join Discord community</a>
   </p>
 </a>
 
@@ -12,7 +12,7 @@
 
 ## ✨ About ClassroomIO.com
 
-<img alt="ClassroomIO Courses page" src="https://raw.githubusercontent.com/rotimi-best/classroomio/main/apps/classroomio-com/static/classroomio-courses.png" />
+<img alt="Rebuild You Courses page" src="https://raw.githubusercontent.com/rotimi-best/classroomio/main/apps/classroomio-com/static/classroomio-courses.png" />
 
 Streamline training for everyone with ClassroomIO.com. Our all-in-one platform empowers bootcamps, educators, and businesses to manage training programs easily. With our platform, anyone can run multiple classes and cohorts all from one UI. The application is mobile-first, which means that students can access your lesson materials from any device.
 
@@ -41,13 +41,13 @@ Please reach out to me on [twitter](https://x.com/rotimi_best) if you have any f
 
 ## Built With
 
-- [SvelteKit](https://kit.svelte.dev/?ref=classroomio.com)
-- [Supabase](https://supabase.com/?ref=classroomio.com)
-- [TailwindCSS](https://tailwindcss.com/?ref=classroomio.com)
+- [SvelteKit](https://kit.svelte.dev/?ref=rebuildyou.uk)
+- [Supabase](https://supabase.com/?ref=rebuildyou.uk)
+- [TailwindCSS](https://tailwindcss.com/?ref=rebuildyou.uk)
 
 ## Get a Demo
 
-You can book a quick 15 min demo to see if ClassroomIO is a good fit for you
+You can book a quick 15 min demo to see if Rebuild You is a good fit for you
 
 <a href="https://cal.com/classroomio/demo">
   <img src="https://cal.com/book-with-cal-dark.svg" alt="Book a Call with ClassroomIO.com">
@@ -72,10 +72,10 @@ Here is what you need to be able to run ClassroomIO.com
 
 This repo is a mono repo that consists of 3 projects:
 
-1. `classroomio-com`: The landing page of ClassroomIO hosted [here](https://classroomio.com)
+1. `classroomio-com`: The landing page of Rebuild You hosted [here](https://rebuildyou.uk)
 2. `backend`: The backend service that handles PDF, video processing, Emailing and Notifications.
-3. `dashboard`: The web application that runs the learning management system hosted [here](https://app.classroomio.com).
-4. `docs`: Official documentation of ClassroomIO hosted [here](https://classroomio.com/docs)
+3. `dashboard`: The web application that runs the learning management system hosted [here](https://app.rebuildyou.uk).
+4. `docs`: Official documentation of Rebuild You hosted [here](https://rebuildyou.uk/docs)
 
 ## Development
 
@@ -191,4 +191,4 @@ To get the environmental variables for supabase continue to step(5)
     - Enter email: `admin@test.com`
     - Enter password: `123456`
      
-    To learn more about how to login with a dummy account, [go here.](https://classroomio.com/docs/contributor-guides/demo-accounts)
+    To learn more about how to login with a dummy account, [go here.](https://rebuildyou.uk/docs/contributor-guides/demo-accounts)

@@ -48,7 +48,7 @@
 </script>
 
 <svelte:head>
-  <title>Student Dashboard - ClassroomIO</title>
+  <title>Student Dashboard </title>
 </svelte:head>
 
 <section class="max-w-6xl gap-5 mx-auto">

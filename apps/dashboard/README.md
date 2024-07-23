@@ -1,10 +1,10 @@
-<a href="https://classroomio.com/">
-  <img alt="Launch your bootcamp quickly and affordably with ClassroomIO, the customizable online teaching platform." src="https://classroomio.com/classroomio-opengraph-image.png" />
+<a href="https://rebuildyou.uk/">
+  <img alt="Launch your bootcamp quickly and affordably with ClassroomIO, the customizable online teaching platform." src="https://rebuildyou.uk/classroomio-opengraph-image.png" />
   <h1 align="center">ClassroomIO</h1>
   <p align="center">
     The Open Source Teaching Platform for Bootcamps
     <br />
-    <a href="https://classroomio.com">Website</a>  |  <a href="https://dub.sh/ciodiscord">Join Discord community</a>
+    <a href="https://rebuildyou.uk">Website</a>  |  <a href="https://dub.sh/ciodiscord">Join Discord community</a>
   </p>
 </a>
 
@@ -12,7 +12,7 @@
 
 ## ✨ About ClassroomIO
 
-<img alt="ClassroomIO Courses page" src="https://classroomio.com/classroomio-courses.png" />
+<img alt="Rebuild You Courses page" src="https://rebuildyou.uk/classroomio-courses.png" />
 
 Streamline training for everyone with ClassroomIO.com. Our all-in-one platform empowers bootcamps, educators, and businesses to manage training programs easily. With our platform, anyone can run multiple classes and cohorts all from one UI. The application is mobile-first, which means that students can access your lesson materials from any device.
 
@@ -42,13 +42,13 @@ Please reach out to me on [twitter](https://x.com/rotimi_best) if you have any f
 
 ## Built With
 
-- [Svelekit](https://kit.svelte.dev/?ref=classroomio.com)
-- [Supabase](https://supabase.com/?ref=classroomio.com)
-- [TailwindCSS](https://tailwindcss.com/?ref=classroomio.com)
+- [Svelekit](https://kit.svelte.dev/?ref=rebuildyou.uk)
+- [Supabase](https://supabase.com/?ref=rebuildyou.uk)
+- [TailwindCSS](https://tailwindcss.com/?ref=rebuildyou.uk)
 
 ## Get a Demo
 
-You can book a quick 15 min demo to see if ClassroomIO is a good fit for you
+You can book a quick 15 min demo to see if Rebuild You is a good fit for you
 
 <a href="https://cal.com/classroomio/demo">
   <img src="https://cal.com/book-with-cal-dark.svg" alt="Book a Call with ClassroomIO.com">
@@ -153,5 +153,5 @@ Here is what you need to be able to run Cal.com.
 
 You can find other repos related to classroomio here:
 
-- Help Docs: <https://github.com/rotimi-best/classroomio.com/docs>
-- ClassroomIO.com: <https://github.com/rotimi-best/classroomio.com>
+- Help Docs: <https://github.com/rotimi-best/rebuildyou.uk/docs>
+- ClassroomIO.com: <https://github.com/rotimi-best/rebuildyou.uk>

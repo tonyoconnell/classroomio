@@ -53,7 +53,7 @@
         There is More...
       </h2>
       <p class="mt-4 text-lg text-gray-500 w-[94%] lg:w-4/5">
-        ClassroomIO is packed with useful features while we try to make it easy to use.
+        Rebuild You is packed with useful features while we try to make it easy to use.
       </p>
     </div>
 

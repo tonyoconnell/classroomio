@@ -31,21 +31,21 @@ export async function POST({ request }) {
       subject: 'Thank you so so so much for choosing ClassroomIO!',
       content: `
     <p>Dear ${name},</p>
-      <p>My name is Best the CEO of ClassroomIO and I will personally like to welcome to the vibrant community of ClassroomIO!</p>
+      <p>My name is Best the CEO of Rebuild You and I will personally like to welcome to the vibrant community of ClassroomIO!</p>
       <p>
         We're thrilled to have you join us in shaping the future of education. Your decision to embark on
         this journey with us is deeply appreciated, and we're genuinely excited about the possibilities
         that lie ahead.
       </p>
       <p>
-        Once again, welcome to the ClassroomIO family. We're here to help, to listen, and to celebrate
+        Once again, welcome to the Rebuild You family. We're here to help, to listen, and to celebrate
         your successes. Get ready to unlock a world of possibilities in education!
       </p>
       <p>
-        If you have any question or face any issues just send me an email best@classroomio.com 😃
+        If you have any question or face any issues just send me an email best@rebuildyou.uk 😃
       </p>
       <div>
-        <a href="https://app.classroomio.com">Go to Dashboard</a>
+        <a href="https://app.rebuildyou.uk">Go to Dashboard</a>
       </div>
     `,
       isPersonalEmail: true
