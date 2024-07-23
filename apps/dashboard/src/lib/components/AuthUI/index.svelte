@@ -54,7 +54,7 @@
         <div class="flex flex-col items-center justify-center w-full pt-2">
           <Avatar
             src={$currentOrg.avatar_url ? $currentOrg.avatar_url : '/logo-192.png'}
-            name={$currentOrg.name ? $currentOrg.name : 'ClassroomIO'}
+            name={$currentOrg.name ? $currentOrg.name : 'ONE'}
             shape="rounded-md"
             width="w-10"
             height="max-h-10"
@@ -62,7 +62,7 @@
           />
           <a href="/">
             <h4 class="dark:text-white text-xl mt-0">
-              {$currentOrg.name ? $currentOrg.name : 'ClassroomIO'}
+              {$currentOrg.name ? $currentOrg.name : 'ONE'}
             </h4>
           </a>
         </div>

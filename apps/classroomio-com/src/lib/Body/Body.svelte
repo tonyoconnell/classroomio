@@ -7,7 +7,7 @@
   id="coursemanagement"
   tagline="Simplified"
   title="Course Management"
-  description="ClassroomIO simplifies teaching tasks, boosts the educational experience, and is beneficial for both educators and students, providing a user-friendly platform for assessment, grading, attendance, and scorebook management."
+  description="ONE simplifies teaching tasks, boosts the educational experience, and is beneficial for both educators and students, providing a user-friendly platform for assessment, grading, attendance, and scorebook management."
   video="https://brand.cdn.clsrio.com/course-management.mp4"
   rightToLeft={true}
 />
@@ -15,7 +15,7 @@
   id="ai"
   tagline="Efficient"
   title="AI Support"
-  description="Our platform integrates AI to simplify lesson outline generation, streamline lesson planning and spark creative ideas. With ClassroomIO, educators can focus on what matters most: teaching."
+  description="Our platform integrates AI to simplify lesson outline generation, streamline lesson planning and spark creative ideas. With ONE, educators can focus on what matters most: teaching."
   rightToLeft={false}
   video="https://brand.cdn.clsrio.com/ai-lesson.mp4"
 />
@@ -23,7 +23,7 @@
   id="customization"
   tagline="Flexible"
   title="Dashboard Customization"
-  description="ClassroomIO offers organizations the ability to tailor our LMS to their specific requirements. With our customizable features, you can create a personalized learning environment that aligns with your organization's goals"
+  description="ONE offers organizations the ability to tailor our LMS to their specific requirements. With our customizable features, you can create a personalized learning environment that aligns with your organization's goals"
   rightToLeft={true}
   video="https://brand.cdn.clsrio.com/lms-customization.mp4"
 />

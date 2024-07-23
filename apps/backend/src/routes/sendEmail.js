@@ -45,7 +45,7 @@ router.post('/', async (req, res) => {
           }
 
           const res = await transporter.sendMail({
-            from: from || '"Best from ClassroomIO" <best@one.ie>',
+            from: from || '"Best from ONE" <best@one.ie>',
             to,
             subject,
             replyTo,

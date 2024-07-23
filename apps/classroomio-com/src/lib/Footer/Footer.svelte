@@ -25,7 +25,7 @@
         ><img
           loading="lazy"
           src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=425236&theme=light"
-          alt="ClassroomIO - The&#0032;Open&#0032;Source&#0032;Platform&#0032;for&#0032;Tech&#0032;Bootcamps | Product Hunt"
+          alt="ONE - The&#0032;Open&#0032;Source&#0032;Platform&#0032;for&#0032;Tech&#0032;Bootcamps | Product Hunt"
           style="width: 250px; height: 54px;"
           width="250"
           height="54"
@@ -48,7 +48,7 @@
             class="w-3 scale-90 cursor-pointer transition-all hover:scale-110 hover:fill-gray-500 lg:scale-150"
           />
         </a>
-        <a href="https://www.youtube.com/@ClassroomIO" target="_blank" aria-label="Youtube Link">
+        <a href="https://www.youtube.com/@ONE" target="_blank" aria-label="Youtube Link">
           <LogoYoutube
             class="scale-90 cursor-pointer fill-gray-400 transition-all hover:scale-110 hover:fill-gray-500 lg:scale-150"
             size={20}
@@ -174,7 +174,7 @@
   >
     <p>All rights reserved.</p>
     <p class="flex items-center">
-      ClassroomIO © {new Date().getFullYear()} by
+      ONE © {new Date().getFullYear()} by
       <a href="https://twitter.com/rotimi_best" target="_blank" class="mx-1 text-blue-700 underline"
         >Rotimi Best</a
       >

@@ -14,7 +14,7 @@ const sendEmailNotification = async (feedId: string, authorId: string, comment?:
   if (comment) {
     const emailData = [
       {
-        from: `"${feed.org.name} - ClassroomIO" <notify@one.ie>`,
+        from: `"${feed.org.name} - ONE" <notify@one.ie>`,
         to: feed.teacherEmail,
         subject: `[${feed.courseTitle}] - News feed comment`,
         content: `
@@ -42,7 +42,7 @@ const sendEmailNotification = async (feedId: string, authorId: string, comment?:
 
   // else send to everyone except the author of the post
   const emailsData = feed.courseMembers.map((member) => ({
-    from: `"${feed.org.name} - ClassroomIO" <notify@one.ie>`,
+    from: `"${feed.org.name} - ONE" <notify@one.ie>`,
     to: member.email,
     replyTo: feed.teacherEmail,
     subject: `[${feed.courseTitle}] - New post in course`,

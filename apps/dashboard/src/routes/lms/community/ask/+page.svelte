@@ -79,7 +79,7 @@
 </script>
 
 <svelte:head>
-  <title>Ask the Community - ClassroomIO</title>
+  <title>Ask the Community - ONE</title>
 </svelte:head>
 
 <section class="w-full max-w-3xl mx-auto">

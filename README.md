@@ -1,5 +1,5 @@
 <a href="https://one.ie/">
-  <img alt="ClassroomIO is a no-code tool that allows you build and scale your online bootcamp with ease." src="https://raw.githubusercontent.com/rotimi-best/classroomio/main/apps/classroomio-com/static/classroomio-opengraph-image.png" />
+  <img alt="ONE is a no-code tool that allows you build and scale your online bootcamp with ease." src="https://raw.githubusercontent.com/rotimi-best/classroomio/main/apps/classroomio-com/static/classroomio-opengraph-image.png" />
   <h1 align="center">one.ie</h1>
   <p align="center">
     Launch Your Online Bootcamp In Minutes
@@ -12,13 +12,13 @@
 
 ## ✨ About one.ie
 
-<img alt="ClassroomIO Courses page" src="https://raw.githubusercontent.com/rotimi-best/classroomio/main/apps/classroomio-com/static/classroomio-courses.png" />
+<img alt="ONE Courses page" src="https://raw.githubusercontent.com/rotimi-best/classroomio/main/apps/classroomio-com/static/classroomio-courses.png" />
 
 Streamline training for everyone with one.ie. Our all-in-one platform empowers bootcamps, educators, and businesses to manage training programs easily. With our platform, anyone can run multiple classes and cohorts all from one UI. The application is mobile-first, which means that students can access your lesson materials from any device.
 
 ### Mission: Provide Students with the Best Learning Experience
 
-At ClassroomIO, our mission is to provide students with the best possible learning experience. We believe in empowering educators with the tools they need to deliver high-quality education that is accessible, engaging, and effective.
+At ONE, our mission is to provide students with the best possible learning experience. We believe in empowering educators with the tools they need to deliver high-quality education that is accessible, engaging, and effective.
 
 ### Key Features
 
@@ -47,7 +47,7 @@ Please reach out to me on [twitter](https://x.com/rotimi_best) if you have any f
 
 ## Get a Demo
 
-You can book a quick 15 min demo to see if ClassroomIO is a good fit for you
+You can book a quick 15 min demo to see if ONE is a good fit for you
 
 <a href="https://cal.com/classroomio/demo">
   <img src="https://cal.com/book-with-cal-dark.svg" alt="Book a Call with one.ie">
@@ -72,10 +72,10 @@ Here is what you need to be able to run one.ie
 
 This repo is a mono repo that consists of 3 projects:
 
-1. `classroomio-com`: The landing page of ClassroomIO hosted [here](https://one.ie)
+1. `classroomio-com`: The landing page of ONE hosted [here](https://one.ie)
 2. `backend`: The backend service that handles PDF, video processing, Emailing and Notifications.
 3. `dashboard`: The web application that runs the learning management system hosted [here](https://app.one.ie).
-4. `docs`: Official documentation of ClassroomIO hosted [here](https://one.ie/docs)
+4. `docs`: Official documentation of ONE hosted [here](https://one.ie/docs)
 
 ## Development
 

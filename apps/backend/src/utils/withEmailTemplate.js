@@ -139,7 +139,7 @@ const withEmailTemplate = (content) =>
     ">
   <div class="gutter">
     <a href="https://one.ie" target="_blank">
-      <img src="https://brand.cdn.clsrio.com/cio-bg-transparent.png" alt="ClassroomIO Logo" /></a>
+      <img src="https://brand.cdn.clsrio.com/cio-bg-transparent.png" alt="ONE Logo" /></a>
   </div>
   <div class="wrap" style="
         background-color: #fff;
@@ -166,7 +166,7 @@ const withEmailTemplate = (content) =>
               src="https://brand.cdn.clsrio.com/socials/twitter.png" alt="X" width="19" /></a>
         </td>
         <td>
-          <a target="_blank" href="https://www.youtube.com/@ClassroomIO"><img title="Youtube"
+          <a target="_blank" href="https://www.youtube.com/@ONE"><img title="Youtube"
               src="https://brand.cdn.clsrio.com/socials/youtube.png" alt="Youtube" width="24" /></a>
         </td>
         <td>
@@ -176,7 +176,7 @@ const withEmailTemplate = (content) =>
       </tr>
     </table>
     <p style="padding-top: 8px; line-height: initial">
-      ClassroomIO ${new Date().getFullYear()}. All rights reserved.<br />
+      ONE ${new Date().getFullYear()}. All rights reserved.<br />
       <a style="text-decoration: none" href="https://app.enzuzo.com/policies/tos/958fc978-5477-11ee-a03b-7b111830c594"
         target="_blank">Terms</a>
       |

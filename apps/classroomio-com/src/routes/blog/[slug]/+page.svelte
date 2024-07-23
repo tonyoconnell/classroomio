@@ -8,7 +8,7 @@
 
 <!-- SEO -->
 <svelte:head>
-  <title>{data.meta.title} | ClassroomIO Blog</title>
+  <title>{data.meta.title} | ONE Blog</title>
   <meta property="og:type" content="article" />
   <meta property="og:title" content={data.meta.title} />
 

@@ -38,11 +38,11 @@ app.use('/katex', katex);
 app.use('/sendEmail', sendEmail);
 
 app.get('/', (req, res) => {
-  res.send('Welcome to ClassroomIO');
+  res.send('Welcome to ONE');
 });
 
 app.listen(port, () => {
-  console.log(`ClassroomIO Backend listening on port ${port}!`);
+  console.log(`ONE Backend listening on port ${port}!`);
 });
 
 process.on('uncaughtException', (err) => {

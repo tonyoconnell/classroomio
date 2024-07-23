@@ -1,4 +1,4 @@
-# ClassroomIO Documentation
+# ONE Documentation
 
 The help docs of classroomio in Next.js live on [https://one.ie/docs](https://one.ie/docs)
 

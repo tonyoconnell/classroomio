@@ -114,7 +114,7 @@
       </div>
 
       <p class="text-base mx-auto mt-10 px-4 text-slate-700 md:text-lg lg:mt-6 lg:w-[42%] lg:p-0">
-        ClassroomIO is an open source learning management system for small and medium bootcamps that
+        ONE is an open source learning management system for small and medium bootcamps that
         wants to set up a fully customizable online teaching platform quickly.
       </p>
     </div>
@@ -206,7 +206,7 @@
       class="mx-auto w-[85%] lg:w-[70%]"
     >
       <iframe
-        title="ClassroomIO Live Demo"
+        title="ONE Live Demo"
         src="https://app.supademo.com/embed/cluw8chyy06nhq2s9m697a680"
         allow="clipboard-write"
         frameborder="0"
