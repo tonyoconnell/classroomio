@@ -87,7 +87,7 @@
   }
 
   function onLearnMore() {
-    window.open('https://classroomio.com/blog/early-adopter', '_blank');
+    window.open('https://one.ie/blog/early-adopter', '_blank');
   }
 
   onMount(() => {

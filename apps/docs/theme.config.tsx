@@ -28,18 +28,18 @@ const config: DocsThemeConfig = {
         content="Launch your bootcamp quickly and affordably with ClassroomIO, the customizable online teaching platform."
       />
 
-      <meta property="og:url" content="https://classroomio.com/docs" />
+      <meta property="og:url" content="https://one.ie/docs" />
       <meta property="og:type" content="website" />
       <meta property="og:title" content="ClassroomIO – Launch Your Online Bootcamp In Minutes" />
       <meta
         property="og:description"
         content="Launch your bootcamp quickly and affordably with ClassroomIO, the customizable online teaching platform."
       />
-      <meta property="og:image" content="https://classroomio.com/classroomio-opengraph-image.png" />
+      <meta property="og:image" content="https://one.ie/classroomio-opengraph-image.png" />
 
       <meta name="twitter:card" content="summary_large_image" />
-      <meta property="twitter:domain" content="classroomio.com" />
-      <meta property="twitter:url" content="https://classroomio.com/docs" />
+      <meta property="twitter:domain" content="one.ie" />
+      <meta property="twitter:url" content="https://one.ie/docs" />
       <meta name="twitter:title" content="ClassroomIO – Launch Your Online Bootcamp In Minutes" />
       <meta
         name="twitter:description"
@@ -48,7 +48,7 @@ const config: DocsThemeConfig = {
       <meta name="twitter:creator" content="@classroomio" />
       <meta
         name="twitter:image"
-        content="https://classroomio.com/classroomio-opengraph-image.png"
+        content="https://one.ie/classroomio-opengraph-image.png"
       />
     </>
   ),
@@ -73,7 +73,7 @@ const config: DocsThemeConfig = {
           borderRadius: 5,
           padding: '2px 7px'
         }}
-        href="https://app.classroomio.com"
+        href="https://app.one.ie"
       >
         Dashboard ↗
       </a>
@@ -123,7 +123,7 @@ const config: DocsThemeConfig = {
         ],
         twitter: {
           handle: '@classroomio',
-          site: '@classroomio.com',
+          site: '@one.ie',
           cardType: 'summary_large_image'
         }
       }

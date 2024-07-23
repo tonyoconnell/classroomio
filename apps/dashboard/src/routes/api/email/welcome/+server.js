@@ -42,10 +42,10 @@ export async function POST({ request }) {
         your successes. Get ready to unlock a world of possibilities in education!
       </p>
       <p>
-        If you have any question or face any issues just send me an email best@classroomio.com 😃
+        If you have any question or face any issues just send me an email best@one.ie 😃
       </p>
       <div>
-        <a href="https://app.classroomio.com">Go to Dashboard</a>
+        <a href="https://app.one.ie">Go to Dashboard</a>
       </div>
     `,
       isPersonalEmail: true

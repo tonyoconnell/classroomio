@@ -14,7 +14,7 @@
       return goto('/');
     }
 
-    return goto('https://classroomio.com');
+    return goto('https://one.ie');
   }
 </script>
 

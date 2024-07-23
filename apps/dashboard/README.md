@@ -20,9 +20,9 @@ Please reach out to me on [twitter](https://x.com/rotimi_best) if you have any f
 
 ## Built With
 
-- [Svelekit](https://kit.svelte.dev/?ref=classroomio.com)
-- [Supabase](https://supabase.com/?ref=classroomio.com)
-- [TailwindCSS](https://tailwindcss.com/?ref=classroomio.com)
+- [Svelekit](https://kit.svelte.dev/?ref=one.ie)
+- [Supabase](https://supabase.com/?ref=one.ie)
+- [TailwindCSS](https://tailwindcss.com/?ref=one.ie)
 
 ### Prerequisites
 
@@ -117,5 +117,5 @@ Here is what you need to be able to run Cal.com.
 
 You can find other repos related to classroomio here:
 
-- Help Docs: <https://github.com/rotimi-best/classroomio.com/docs>
-- ClassroomIO.com: <https://github.com/rotimi-best/classroomio.com>
+- Help Docs: <https://github.com/rotimi-best/one.ie/docs>
+- one.ie: <https://github.com/rotimi-best/one.ie>

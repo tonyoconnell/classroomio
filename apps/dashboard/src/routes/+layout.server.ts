@@ -66,7 +66,7 @@ export const load = async ({ url, cookies }): Promise<LoadOutput> => {
 
   const isDev = dev || isLocalHost;
 
-  if (!url.host.includes('.classroomio.com') && !isLocalHost) {
+  if (!url.host.includes('.one.ie') && !isLocalHost) {
     // TODO: We can verify if custom domain here
     return response;
   }
@@ -79,7 +79,7 @@ export const load = async ({ url, cookies }): Promise<LoadOutput> => {
     response.org = (await getCurrentOrg(response.orgSiteName, true)) || null;
 
     if (!response.org && !isDev) {
-      throw redirect(307, 'https://app.classroomio.com/404?type=org');
+      throw redirect(307, 'https://app.one.ie/404?type=org');
     } else if (!response.org && _orgSiteName) {
       cookies.delete('_orgSiteName');
     }
@@ -87,7 +87,7 @@ export const load = async ({ url, cookies }): Promise<LoadOutput> => {
     response.skipAuth = true;
   } else if (!PRIVATE_APP_SUBDOMAINS.split(',').includes(subdomain) && !isDev) {
     // This case is for anything in our blockedSubdomains
-    throw redirect(307, 'https://app.classroomio.com');
+    throw redirect(307, 'https://app.one.ie');
   }
 
   // Load translations

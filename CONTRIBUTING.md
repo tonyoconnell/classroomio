@@ -1,4 +1,4 @@
-# Contributing to ClassroomIO.com
+# Contributing to one.ie
 
 First and foremost, we're absolutely thrilled that you're considering becoming a part of the community
 
@@ -14,7 +14,7 @@ We invite innovative minds to contribute to the evolution of ClassroomIO. If you
 
 Ready to dive into the code and make a real impact? Here's your path:
 
-1. **Fork the Repository:** Fork our repository or use [Gitpod](https://classroomio.com/docs/contributor-guides/gitpod)
+1. **Fork the Repository:** Fork our repository or use [Gitpod](https://one.ie/docs/contributor-guides/gitpod)
 
 2. **Implementation:** Code it out, test it and apply your changes.
 

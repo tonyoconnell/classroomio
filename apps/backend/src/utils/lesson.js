@@ -168,7 +168,7 @@ async function generateSinglePdfFromHtml(htmlContent, courseTitle) {
     headerTemplate:
       "<div><div class='pageNumber'></div> <div>/</div><div class='totalPages'></div></div>",
     footerTemplate: `<div class="footer" style="text-align: right; margin-right: 5%; font-size: 8px; width: 297mm; padding-top: 30px;">
-      ${courseTitle} | Powered by <a href="https://app.classroomio.com" style="color: blue; text-decoration: underline;">ClassroomIO</a>
+      ${courseTitle} | Powered by <a href="https://app.one.ie" style="color: blue; text-decoration: underline;">ClassroomIO</a>
       </div>`,
     margin: {
       top: '0.4cm',

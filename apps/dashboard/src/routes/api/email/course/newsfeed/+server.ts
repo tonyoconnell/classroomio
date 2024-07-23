@@ -9,12 +9,12 @@ const sendEmailNotification = async (feedId: string, authorId: string, comment?:
   const feed = await getFeedForNotification(feedId, authorId);
   if (!feed) return;
 
-  const postLink = `https://${feed.org.siteName}.classroomio.com/courses/${feed.courseId}?feedId=${feed.id}`;
+  const postLink = `https://${feed.org.siteName}.one.ie/courses/${feed.courseId}?feedId=${feed.id}`;
 
   if (comment) {
     const emailData = [
       {
-        from: `"${feed.org.name} - ClassroomIO" <notify@classroomio.com>`,
+        from: `"${feed.org.name} - ClassroomIO" <notify@one.ie>`,
         to: feed.teacherEmail,
         subject: `[${feed.courseTitle}] - News feed comment`,
         content: `
@@ -26,7 +26,7 @@ const sendEmailNotification = async (feedId: string, authorId: string, comment?:
       </div>
       `,
         isPersonalEmail: false,
-        replyTo: 'noreply@classroomio.com'
+        replyTo: 'noreply@one.ie'
       }
     ];
 
@@ -42,7 +42,7 @@ const sendEmailNotification = async (feedId: string, authorId: string, comment?:
 
   // else send to everyone except the author of the post
   const emailsData = feed.courseMembers.map((member) => ({
-    from: `"${feed.org.name} - ClassroomIO" <notify@classroomio.com>`,
+    from: `"${feed.org.name} - ClassroomIO" <notify@one.ie>`,
     to: member.email,
     replyTo: feed.teacherEmail,
     subject: `[${feed.courseTitle}] - New post in course`,

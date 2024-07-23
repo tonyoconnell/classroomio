@@ -19,8 +19,8 @@
   <meta property="og:image:secure_url" itemprop="image" content={data.meta.imageUrl} />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta property="twitter:domain" content="classroomio.com" />
-  <meta property="twitter:url" content="https://www.classroomio.com/blog/" />
+  <meta property="twitter:domain" content="one.ie" />
+  <meta property="twitter:url" content="https://www.one.ie/blog/" />
   <meta name="twitter:title" content={data.meta.title} />
   <meta name="twitter:description" content={data.meta.description} />
   <meta name="twitter:image" content={data.meta.imageUrl} />

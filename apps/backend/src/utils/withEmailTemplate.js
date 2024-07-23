@@ -138,7 +138,7 @@ const withEmailTemplate = (content) =>
       color: #1e293b;
     ">
   <div class="gutter">
-    <a href="https://classroomio.com" target="_blank">
+    <a href="https://one.ie" target="_blank">
       <img src="https://brand.cdn.clsrio.com/cio-bg-transparent.png" alt="ClassroomIO Logo" /></a>
   </div>
   <div class="wrap" style="

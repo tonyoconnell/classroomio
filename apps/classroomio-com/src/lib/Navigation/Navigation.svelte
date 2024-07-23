@@ -155,7 +155,7 @@
     </a>
     <a
       class="font-medium text-sm after:content-['→'] after:ml-2"
-      href="https://app.classroomio.com"
+      href="https://app.one.ie"
     >
       Dashboard
     </a>
@@ -286,7 +286,7 @@
         </a>
         <a
           class="font-semibold after:content-['→'] rounded-md after:ml-2 w-full text-left py-4 px-4 hover:bg-gray-100 text-sm md:text-lg"
-          href="https://app.classroomio.com"
+          href="https://app.one.ie"
         >
           Dashboard
         </a>
