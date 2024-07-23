@@ -125,8 +125,6 @@
   <title>Join Rebuild You</title>
 </svelte:head>
 
-<SenjaEmbed id="aa054658-1e15-4d00-8920-91f424326c4e" />
-
 <AuthUI {supabase} isLogin={false} {handleSubmit} isLoading={loading} bind:formRef>
   <div class="mt-4 w-full">
     <p class="dark:text-white text-lg font-semibold mb-6">Create a free account</p>
