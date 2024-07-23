@@ -19,7 +19,7 @@
         size={16}
       />
       <img src="/logo-192.png" alt="logo" class="group-hover:opacity-0 opacity-100 h-[16px]" />
-      Powered by ClassroomIO
+      Powered by Rebuild You
     </span>
   </a>
 {/if}

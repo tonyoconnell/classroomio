@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-  <title>Teams - ClassroomIO</title>
+  <title>Teams - Rebuild You</title>
 </svelte:head>
 
 <section class="w-full md:max-w-4xl mx-auto">

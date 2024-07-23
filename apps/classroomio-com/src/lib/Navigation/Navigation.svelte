@@ -62,7 +62,7 @@
         alt="classroomio logo"
         class="w-6 md:w-10"
       />
-      <h1 class="text-xs md:text-lg font-medium ml-2">ClassroomIO</h1>
+      <h1 class="text-xs md:text-lg font-medium ml-2">Rebuild You</h1>
     </div>
   </a>
 

@@ -15,7 +15,7 @@
   id="ai"
   tagline="Efficient"
   title="AI Support"
-  description="Our platform integrates AI to simplify lesson outline generation, streamline lesson planning and spark creative ideas. With ClassroomIO, educators can focus on what matters most: teaching."
+  description="Our platform integrates AI to simplify lesson outline generation, streamline lesson planning and spark creative ideas. With Rebuild You, educators can focus on what matters most: teaching."
   rightToLeft={false}
   video="https://brand.cdn.clsrio.com/ai-lesson.mp4"
 />

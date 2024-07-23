@@ -166,7 +166,7 @@ const withEmailTemplate = (content) =>
               src="https://brand.cdn.clsrio.com/socials/twitter.png" alt="X" width="19" /></a>
         </td>
         <td>
-          <a target="_blank" href="https://www.youtube.com/@ClassroomIO"><img title="Youtube"
+          <a target="_blank" href="https://www.youtube.com/@Rebuild You"><img title="Youtube"
               src="https://brand.cdn.clsrio.com/socials/youtube.png" alt="Youtube" width="24" /></a>
         </td>
         <td>

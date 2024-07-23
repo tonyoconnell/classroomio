@@ -28,10 +28,10 @@ export async function POST({ request }) {
   const emailData = [
     {
       to,
-      subject: 'Thank you so so so much for choosing ClassroomIO!',
+      subject: 'Thank you so so so much for choosing Rebuild You!',
       content: `
     <p>Dear ${name},</p>
-      <p>My name is Best the CEO of Rebuild You and I will personally like to welcome to the vibrant community of ClassroomIO!</p>
+      <p>My name is Best the CEO of Rebuild You and I will personally like to welcome to the vibrant community of Rebuild You!</p>
       <p>
         We're thrilled to have you join us in shaping the future of education. Your decision to embark on
         this journey with us is deeply appreciated, and we're genuinely excited about the possibilities

@@ -1,6 +1,6 @@
 export const faqs = [
   {
-    question: 'Who can benefit from ClassroomIO?',
+    question: 'Who can benefit from Rebuild You?',
     answer:
       'We built Rebuild You from the ground up for Educators, meaning if you teach online or in a physical classroom you are good to go. It works best for Educators who already have students and want an efficient way to manage their learning experience.',
   },
@@ -10,7 +10,7 @@ export const faqs = [
       'Most definitely. You can use Rebuild You as a no-code tool to build your own LMS platform. We provide an intuitive user interface and documentation to help you give your students the best learning experience.',
   },
   {
-    question: 'How much customization can I do with ClassroomIO?',
+    question: 'How much customization can I do with Rebuild You?',
     answer:
       'Things like theming, organization name, landing pages, content that your students see and many more customization options to come.',
   },

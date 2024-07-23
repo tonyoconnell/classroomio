@@ -116,7 +116,7 @@
 </script>
 
 <svelte:head>
-  <title>Join {data.name} on ClassroomIO</title>
+  <title>Join {data.name} on Rebuild You</title>
 </svelte:head>
 
 <AuthUI

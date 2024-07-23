@@ -43,7 +43,7 @@
 </script>
 
 <svelte:head>
-  <title>Reset Password - ClassroomIO</title>
+  <title>Reset Password - Rebuild You</title>
 </svelte:head>
 
 <AuthUI {supabase} {handleSubmit} showOnlyContent={true} showLogo={!success}>

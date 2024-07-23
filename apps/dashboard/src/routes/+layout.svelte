@@ -219,7 +219,7 @@
 
   onMount(() => {
     console.log(
-      'Welcome to ClassroomIO, we are grateful you chose us.',
+      'Welcome to Rebuild You, we are grateful you chose us.',
       $page.url.host,
       `\nIs student domain: ${data.isOrgSite}`
     );

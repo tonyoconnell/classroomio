@@ -47,7 +47,7 @@
 </script>
 
 <svelte:head>
-  <title>Roadmap | ClassroomIO</title>
+  <title>Roadmap | Rebuild You</title>
 </svelte:head>
 
 <PageHeader className="flex flex-col items-center justify-center text-center">

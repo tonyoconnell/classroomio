@@ -16,7 +16,7 @@
 </script>
 
 <svelte:head>
-  <title>Audience - ClassroomIO</title>
+  <title>Audience - Rebuild You</title>
 </svelte:head>
 
 <section class="w-full max-w-4xl mx-auto">

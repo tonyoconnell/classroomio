@@ -12,7 +12,7 @@
 </script>
 
 <svelte:head>
-  <title>Pricing | ClassroomIO</title>
+  <title>Pricing | Rebuild You</title>
 </svelte:head>
 
 <section>

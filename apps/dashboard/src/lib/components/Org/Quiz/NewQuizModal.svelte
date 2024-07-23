@@ -98,7 +98,7 @@
 </script>
 
 <svelte:head>
-  <title>{$t('components.quiz.title')} - ClassroomIO</title>
+  <title>{$t('components.quiz.title')} - Rebuild You</title>
 </svelte:head>
 
 <Modal

@@ -18,7 +18,7 @@
       icon: team,
       title: 'Team management',
       description:
-        'Extend invitations and manage your teaching institution seamlessly through ClassroomIO.',
+        'Extend invitations and manage your teaching institution seamlessly through Rebuild You.',
       image: '/team-management.png'
     },
     {

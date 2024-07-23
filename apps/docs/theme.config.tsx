@@ -25,7 +25,7 @@ const config: DocsThemeConfig = {
       <title>Rebuild You – Launch Your Online Bootcamp In Minutes</title>
       <meta
         name="description"
-        content="Launch your bootcamp quickly and affordably with ClassroomIO, the customizable online teaching platform."
+        content="Launch your bootcamp quickly and affordably with Rebuild You, the customizable online teaching platform."
       />
 
       <meta property="og:url" content="https://rebuildyou.uk/docs" />
@@ -33,7 +33,7 @@ const config: DocsThemeConfig = {
       <meta property="og:title" content="Rebuild You – Launch Your Online Bootcamp In Minutes" />
       <meta
         property="og:description"
-        content="Launch your bootcamp quickly and affordably with ClassroomIO, the customizable online teaching platform."
+        content="Launch your bootcamp quickly and affordably with Rebuild You, the customizable online teaching platform."
       />
       <meta property="og:image" content="https://rebuildyou.uk/classroomio-opengraph-image.png" />
 
@@ -43,7 +43,7 @@ const config: DocsThemeConfig = {
       <meta name="twitter:title" content="Rebuild You – Launch Your Online Bootcamp In Minutes" />
       <meta
         name="twitter:description"
-        content="Launch your bootcamp quickly and affordably with ClassroomIO, the customizable online teaching platform."
+        content="Launch your bootcamp quickly and affordably with Rebuild You, the customizable online teaching platform."
       />
       <meta name="twitter:creator" content="@classroomio" />
       <meta
@@ -89,7 +89,7 @@ const config: DocsThemeConfig = {
         siteName: 'Rebuild You Docs',
         title: 'Rebuild You Documentation',
         description:
-          'Launch your bootcamp quickly and affordably with ClassroomIO, the customizable online teaching platform.',
+          'Launch your bootcamp quickly and affordably with Rebuild You, the customizable online teaching platform.',
         images: [
           {
             url: `${process.env.imagePath}/img/logo-16.png`,

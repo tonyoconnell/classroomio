@@ -1,6 +1,6 @@
 <a href="https://rebuildyou.uk/">
   <img alt="Rebuild You is a no-code tool that allows you build and scale your online bootcamp with ease." src="https://raw.githubusercontent.com/rotimi-best/classroomio/main/apps/classroomio-com/static/classroomio-opengraph-image.png" />
-  <h1 align="center">ClassroomIO.com</h1>
+  <h1 align="center">Rebuild You.com</h1>
   <p align="center">
     Launch Your Online Bootcamp In Minutes
     <br />
@@ -10,15 +10,15 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/629e2bb8994345729513c4d69ccbe3d5)](https://app.codacy.com/gh/rotimi-best/classroomio?utm_source=github.com&utm_medium=referral&utm_content=rotimi-best/classroomio&utm_campaign=Badge_Grade)
 
-## ✨ About ClassroomIO.com
+## ✨ About Rebuild You.com
 
 <img alt="Rebuild You Courses page" src="https://raw.githubusercontent.com/rotimi-best/classroomio/main/apps/classroomio-com/static/classroomio-courses.png" />
 
-Streamline training for everyone with ClassroomIO.com. Our all-in-one platform empowers bootcamps, educators, and businesses to manage training programs easily. With our platform, anyone can run multiple classes and cohorts all from one UI. The application is mobile-first, which means that students can access your lesson materials from any device.
+Streamline training for everyone with Rebuild You.com. Our all-in-one platform empowers bootcamps, educators, and businesses to manage training programs easily. With our platform, anyone can run multiple classes and cohorts all from one UI. The application is mobile-first, which means that students can access your lesson materials from any device.
 
 ### Mission: Provide Students with the Best Learning Experience
 
-At ClassroomIO, our mission is to provide students with the best possible learning experience. We believe in empowering educators with the tools they need to deliver high-quality education that is accessible, engaging, and effective.
+At Rebuild You, our mission is to provide students with the best possible learning experience. We believe in empowering educators with the tools they need to deliver high-quality education that is accessible, engaging, and effective.
 
 ### Key Features
 
@@ -50,7 +50,7 @@ Please reach out to me on [twitter](https://x.com/rotimi_best) if you have any f
 You can book a quick 15 min demo to see if Rebuild You is a good fit for you
 
 <a href="https://cal.com/classroomio/demo">
-  <img src="https://cal.com/book-with-cal-dark.svg" alt="Book a Call with ClassroomIO.com">
+  <img src="https://cal.com/book-with-cal-dark.svg" alt="Book a Call with Rebuild You.com">
 </a>
 
 <!-- GETTING STARTED -->
@@ -61,7 +61,7 @@ To get a local copy up and running, please follow these simple steps.
 
 ### Prerequisites
 
-Here is what you need to be able to run ClassroomIO.com
+Here is what you need to be able to run Rebuild You.com
 
 - [Node.js](https://nodejs.org/) (Version: >=18.x)
 - [Supabase CLI](https://github.com/supabase/cli)

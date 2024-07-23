@@ -180,7 +180,7 @@
 </script>
 
 <svelte:head>
-  <title>Dashboard - ClassroomIO</title>
+  <title>Dashboard - Rebuild You</title>
 </svelte:head>
 
 <WelcomeModal />

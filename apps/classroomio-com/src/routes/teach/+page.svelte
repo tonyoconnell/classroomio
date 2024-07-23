@@ -52,7 +52,7 @@
       showAnswer: false
     },
     {
-      question: 'What equipment do I need to teach on ClassroomIO?',
+      question: 'What equipment do I need to teach on Rebuild You?',
       answer: 'You just need internet access and a laptop.',
       showAnswer: false
     },
@@ -76,13 +76,13 @@
 </script>
 
 <svelte:head>
-  <title>Teach | ClassroomIO</title>
+  <title>Teach | Rebuild You</title>
   <meta
     property="og:image"
     itemprop="image"
     content="https://rebuildyou.uk/teach/teacher-banner.png"
   />
-  <meta property="og:title" content="Teach on ClassroomIO" />
+  <meta property="og:title" content="Teach on Rebuild You" />
   <meta
     property="og:description"
     content="On Rebuild You you can make side income while doing what you love."
@@ -94,7 +94,7 @@
     content="https://rebuildyou.uk/teach/teacher-banner.png"
   />
 
-  <meta name="twitter:title" content="Teach on ClassroomIO" />
+  <meta name="twitter:title" content="Teach on Rebuild You" />
   <meta
     name="twitter:description"
     content="On Rebuild You you can make side income while doing what you love."
@@ -107,7 +107,7 @@
     <div>
       <h1 class="text-5xl font-bold">Teach with us</h1>
       <p class="my-5 lg:w-[77%] lg:text-left text-center">
-        With ClassroomIO, you can make side income while teaching the subject you love
+        With Rebuild You, you can make side income while teaching the subject you love
       </p>
 
       <a
@@ -185,7 +185,7 @@
         class="mt-10 w-full md:w-2/4 mx-auto border shadow-sm bg-white rounded-md text-center py-6 relative before:w-[4.5%] before:absolute before:left-0 before:top-0 before:h-full before:bg-[#0233BD] before:rounded-tl-md before:rounded-bl-md"
       >
         <h1 class="text-base font-medium leading-5 w-[77%] mx-auto">
-          With ClassroomIO, I am training over 100 students. I am making more money than expected
+          With Rebuild You, I am training over 100 students. I am making more money than expected
           with little effort and my students are happy. Love the product
         </h1>
         <div class="flex flex-row gap-4 justify-center items-center mt-3">
