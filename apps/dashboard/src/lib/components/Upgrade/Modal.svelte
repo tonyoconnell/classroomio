@@ -87,7 +87,7 @@
   }
 
   function onLearnMore() {
-    window.open('https://rebuildyou.uk/blog/early-adopter', '_blank');
+    window.open('https://rebuildyou.co/blog/early-adopter', '_blank');
   }
 
   onMount(() => {

@@ -28,18 +28,18 @@ const config: DocsThemeConfig = {
         content="Launch your bootcamp quickly and affordably with Rebuild You, the customizable online teaching platform."
       />
 
-      <meta property="og:url" content="https://rebuildyou.uk/docs" />
+      <meta property="og:url" content="https://rebuildyou.co/docs" />
       <meta property="og:type" content="website" />
       <meta property="og:title" content="Rebuild You – Launch Your Online Bootcamp In Minutes" />
       <meta
         property="og:description"
         content="Launch your bootcamp quickly and affordably with Rebuild You, the customizable online teaching platform."
       />
-      <meta property="og:image" content="https://rebuildyou.uk/classroomio-opengraph-image.png" />
+      <meta property="og:image" content="https://rebuildyou.co/classroomio-opengraph-image.png" />
 
       <meta name="twitter:card" content="summary_large_image" />
-      <meta property="twitter:domain" content="rebuildyou.uk" />
-      <meta property="twitter:url" content="https://rebuildyou.uk/docs" />
+      <meta property="twitter:domain" content="rebuildyou.co" />
+      <meta property="twitter:url" content="https://rebuildyou.co/docs" />
       <meta name="twitter:title" content="Rebuild You – Launch Your Online Bootcamp In Minutes" />
       <meta
         name="twitter:description"
@@ -48,7 +48,7 @@ const config: DocsThemeConfig = {
       <meta name="twitter:creator" content="@classroomio" />
       <meta
         name="twitter:image"
-        content="https://rebuildyou.uk/classroomio-opengraph-image.png"
+        content="https://rebuildyou.co/classroomio-opengraph-image.png"
       />
     </>
   ),
@@ -73,7 +73,7 @@ const config: DocsThemeConfig = {
           borderRadius: 5,
           padding: '2px 7px'
         }}
-        href="https://app.rebuildyou.uk"
+        href="https://app.rebuildyou.co"
       >
         Dashboard ↗
       </a>
@@ -123,7 +123,7 @@ const config: DocsThemeConfig = {
         ],
         twitter: {
           handle: '@classroomio',
-          site: '@rebuildyou.uk',
+          site: '@rebuildyou.co',
           cardType: 'summary_large_image'
         }
       }

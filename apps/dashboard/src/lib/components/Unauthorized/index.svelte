@@ -13,11 +13,11 @@
     The page you are trying to access does not exist
   </p>
 
-  <PrimaryButton label="Go Home" onClick={() => goto('https://www.rebuildyou.uk')} />
+  <PrimaryButton label="Go Home" onClick={() => goto('https://www.rebuildyou.co')} />
   <PrimaryButton
     label="Help"
     variant={VARIANTS.LINK}
-    onClick={() => goto('https://help.rebuildyou.uk/')}
+    onClick={() => goto('https://help.rebuildyou.co/')}
   />
 </div>
 

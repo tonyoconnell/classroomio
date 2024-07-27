@@ -19,8 +19,8 @@
   <meta property="og:image:secure_url" itemprop="image" content={data.meta.imageUrl} />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta property="twitter:domain" content="rebuildyou.uk" />
-  <meta property="twitter:url" content="https://www.rebuildyou.uk/blog/" />
+  <meta property="twitter:domain" content="rebuildyou.co" />
+  <meta property="twitter:url" content="https://www.rebuildyou.co/blog/" />
   <meta name="twitter:title" content={data.meta.title} />
   <meta name="twitter:description" content={data.meta.description} />
   <meta name="twitter:image" content={data.meta.imageUrl} />

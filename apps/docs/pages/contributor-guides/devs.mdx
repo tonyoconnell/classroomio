@@ -14,7 +14,7 @@ We invite innovative minds to contribute to the evolution of Rebuild You. If you
 
 Ready to dive into the code and make a real impact? Here's your path:
 
-1. **Fork the Repository:** Fork our repository or use [Gitpod](https://rebuildyou.uk/docs/contributor-guides/gitpod)
+1. **Fork the Repository:** Fork our repository or use [Gitpod](https://rebuildyou.co/docs/contributor-guides/gitpod)
 
 2. **Implementation:** Code it out, test it and apply your changes.
 

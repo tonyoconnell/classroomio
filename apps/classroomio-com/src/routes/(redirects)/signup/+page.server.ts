@@ -7,5 +7,5 @@ export const load = ({ request }) => {
     event: 'signup'
   });
 
-  throw redirect(307, 'https://app.rebuildyou.uk/signup');
+  throw redirect(307, 'https://app.rebuildyou.co/signup');
 };

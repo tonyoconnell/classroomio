@@ -1,10 +1,10 @@
-<a href="https://rebuildyou.uk/">
-  <img alt="Launch your bootcamp quickly and affordably with Rebuild You, the customizable online teaching platform." src="https://rebuildyou.uk/classroomio-opengraph-image.png" />
+<a href="https://rebuildyou.co/">
+  <img alt="Launch your bootcamp quickly and affordably with Rebuild You, the customizable online teaching platform." src="https://rebuildyou.co/classroomio-opengraph-image.png" />
   <h1 align="center">Rebuild You</h1>
   <p align="center">
     The Open Source Teaching Platform for Bootcamps
     <br />
-    <a href="https://rebuildyou.uk">Website</a>  |  <a href="https://dub.sh/ciodiscord">Join Discord community</a>
+    <a href="https://rebuildyou.co">Website</a>  |  <a href="https://dub.sh/ciodiscord">Join Discord community</a>
   </p>
 </a>
 
@@ -12,7 +12,7 @@
 
 ## ✨ About Rebuild You
 
-<img alt="Rebuild You Courses page" src="https://rebuildyou.uk/classroomio-courses.png" />
+<img alt="Rebuild You Courses page" src="https://rebuildyou.co/classroomio-courses.png" />
 
 Streamline training for everyone with Rebuild You.com. Our all-in-one platform empowers bootcamps, educators, and businesses to manage training programs easily. With our platform, anyone can run multiple classes and cohorts all from one UI. The application is mobile-first, which means that students can access your lesson materials from any device.
 
@@ -42,9 +42,9 @@ Please reach out to me on [twitter](https://x.com/rotimi_best) if you have any f
 
 ## Built With
 
-- [Svelekit](https://kit.svelte.dev/?ref=rebuildyou.uk)
-- [Supabase](https://supabase.com/?ref=rebuildyou.uk)
-- [TailwindCSS](https://tailwindcss.com/?ref=rebuildyou.uk)
+- [Svelekit](https://kit.svelte.dev/?ref=rebuildyou.co)
+- [Supabase](https://supabase.com/?ref=rebuildyou.co)
+- [TailwindCSS](https://tailwindcss.com/?ref=rebuildyou.co)
 
 ## Get a Demo
 
@@ -153,5 +153,5 @@ Here is what you need to be able to run Cal.com.
 
 You can find other repos related to classroomio here:
 
-- Help Docs: <https://github.com/rotimi-best/rebuildyou.uk/docs>
-- Rebuild You.com: <https://github.com/rotimi-best/rebuildyou.uk>
+- Help Docs: <https://github.com/rotimi-best/rebuildyou.co/docs>
+- Rebuild You.com: <https://github.com/rotimi-best/rebuildyou.co>

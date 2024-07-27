@@ -1,6 +1,6 @@
 # Rebuild You Documentation
 
-The help docs of classroomio in Next.js live on [https://rebuildyou.uk/docs](https://rebuildyou.uk/docs)
+The help docs of classroomio in Next.js live on [https://rebuildyou.co/docs](https://rebuildyou.co/docs)
 
 ## Development
 

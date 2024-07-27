@@ -27,7 +27,7 @@
   const steps = [
     {
       title: 'Sign up',
-      subText: 'Create a free account on our platform by going to rebuildyou.uk/signup'
+      subText: 'Create a free account on our platform by going to rebuildyou.co/signup'
     },
     {
       title: 'Record a course',
@@ -80,7 +80,7 @@
   <meta
     property="og:image"
     itemprop="image"
-    content="https://rebuildyou.uk/teach/teacher-banner.png"
+    content="https://rebuildyou.co/teach/teacher-banner.png"
   />
   <meta property="og:title" content="Teach on Rebuild You" />
   <meta
@@ -91,7 +91,7 @@
   <meta
     property="og:image:secure_url"
     itemprop="image"
-    content="https://rebuildyou.uk/teach/teacher-banner.png"
+    content="https://rebuildyou.co/teach/teacher-banner.png"
   />
 
   <meta name="twitter:title" content="Teach on Rebuild You" />
@@ -99,7 +99,7 @@
     name="twitter:description"
     content="On Rebuild You you can make side income while doing what you love."
   />
-  <meta name="twitter:image" content="https://rebuildyou.uk/teach/teacher-banner.png" />
+  <meta name="twitter:image" content="https://rebuildyou.co/teach/teacher-banner.png" />
 </svelte:head>
 
 <section>

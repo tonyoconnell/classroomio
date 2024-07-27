@@ -42,10 +42,10 @@ export async function POST({ request }) {
         your successes. Get ready to unlock a world of possibilities in education!
       </p>
       <p>
-        If you have any question or face any issues just send me an email best@rebuildyou.uk 😃
+        If you have any question or face any issues just send me an email best@rebuildyou.co 😃
       </p>
       <div>
-        <a href="https://app.rebuildyou.uk">Go to Dashboard</a>
+        <a href="https://app.rebuildyou.co">Go to Dashboard</a>
       </div>
     `,
       isPersonalEmail: true

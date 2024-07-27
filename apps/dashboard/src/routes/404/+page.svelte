@@ -14,7 +14,7 @@
       return goto('/');
     }
 
-    return goto('https://rebuildyou.uk');
+    return goto('https://rebuildyou.co');
   }
 </script>
 

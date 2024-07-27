@@ -87,7 +87,7 @@
         <!-- Org Site Name -->
         <TextField
           label="URL"
-          helperMessage={`https://${siteName || ''}.rebuildyou.uk`}
+          helperMessage={`https://${siteName || ''}.rebuildyou.co`}
           bind:value={siteName}
           type="text"
           placeholder="e.g traversymedia"

@@ -138,7 +138,7 @@ const withEmailTemplate = (content) =>
       color: #1e293b;
     ">
   <div class="gutter">
-    <a href="https://rebuildyou.uk" target="_blank">
+    <a href="https://rebuildyou.co" target="_blank">
       <img src="https://brand.cdn.clsrio.com/cio-bg-transparent.png" alt="Rebuild You Logo" /></a>
   </div>
   <div class="wrap" style="

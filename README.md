@@ -1,10 +1,10 @@
-<a href="https://rebuildyou.uk/">
+<a href="https://rebuildyou.co/">
   <img alt="Rebuild You is a no-code tool that allows you build and scale your online bootcamp with ease." src="https://raw.githubusercontent.com/rotimi-best/classroomio/main/apps/classroomio-com/static/classroomio-opengraph-image.png" />
   <h1 align="center">Rebuild You.com</h1>
   <p align="center">
     Launch Your Online Bootcamp In Minutes
     <br />
-    <a href="https://rebuildyou.uk">Website</a>  |  <a href="https://dub.sh/ciodiscord">Join Discord community</a>
+    <a href="https://rebuildyou.co">Website</a>  |  <a href="https://dub.sh/ciodiscord">Join Discord community</a>
   </p>
 </a>
 
@@ -41,9 +41,9 @@ Please reach out to me on [twitter](https://x.com/rotimi_best) if you have any f
 
 ## Built With
 
-- [SvelteKit](https://kit.svelte.dev/?ref=rebuildyou.uk)
-- [Supabase](https://supabase.com/?ref=rebuildyou.uk)
-- [TailwindCSS](https://tailwindcss.com/?ref=rebuildyou.uk)
+- [SvelteKit](https://kit.svelte.dev/?ref=rebuildyou.co)
+- [Supabase](https://supabase.com/?ref=rebuildyou.co)
+- [TailwindCSS](https://tailwindcss.com/?ref=rebuildyou.co)
 
 ## Get a Demo
 
@@ -72,10 +72,10 @@ Here is what you need to be able to run Rebuild You.com
 
 This repo is a mono repo that consists of 3 projects:
 
-1. `classroomio-com`: The landing page of Rebuild You hosted [here](https://rebuildyou.uk)
+1. `classroomio-com`: The landing page of Rebuild You hosted [here](https://rebuildyou.co)
 2. `backend`: The backend service that handles PDF, video processing, Emailing and Notifications.
-3. `dashboard`: The web application that runs the learning management system hosted [here](https://app.rebuildyou.uk).
-4. `docs`: Official documentation of Rebuild You hosted [here](https://rebuildyou.uk/docs)
+3. `dashboard`: The web application that runs the learning management system hosted [here](https://app.rebuildyou.co).
+4. `docs`: Official documentation of Rebuild You hosted [here](https://rebuildyou.co/docs)
 
 ## Development
 
@@ -191,4 +191,4 @@ To get the environmental variables for supabase continue to step(5)
     - Enter email: `admin@test.com`
     - Enter password: `123456`
      
-    To learn more about how to login with a dummy account, [go here.](https://rebuildyou.uk/docs/contributor-guides/demo-accounts)
+    To learn more about how to login with a dummy account, [go here.](https://rebuildyou.co/docs/contributor-guides/demo-accounts)

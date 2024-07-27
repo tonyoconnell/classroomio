@@ -33,7 +33,7 @@ export async function POST({ request }) {
 
   const emailData = [
     {
-      from: `Rebuild You" <notify@rebuildyou.uk>`,
+      from: `Rebuild You" <notify@rebuildyou.co>`,
       to,
       subject: `[${courseName}] Request to Join Course!`,
       content: `

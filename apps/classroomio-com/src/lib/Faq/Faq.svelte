@@ -12,7 +12,7 @@
       class="mt-4 text-lg font-normal tracking-normal text-gray-600 lg:px-[20%] lg:text-xl lg:tracking-wide"
     >
       Can’t find the answer you’re looking for?
-      <a class="font-semibold text-blue-700" href="mailto:help@rebuildyou.uk" target="_blank"
+      <a class="font-semibold text-blue-700" href="mailto:help@rebuildyou.co" target="_blank"
         >Shoot us an email</a
       > and we’ll get back to you ASAP.
     </p>

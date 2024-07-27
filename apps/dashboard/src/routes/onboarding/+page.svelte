@@ -282,7 +282,7 @@
             <!-- Org Site Name -->
             <TextField
               label={$t('onboarding.organisation_sitename')}
-              helperMessage={`https://${fields.siteName || ''}.rebuildyou.uk`}
+              helperMessage={`https://${fields.siteName || ''}.rebuildyou.co`}
               bind:value={fields.siteName}
               name="sitename"
               type="text"

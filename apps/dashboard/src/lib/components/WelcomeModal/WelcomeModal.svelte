@@ -31,7 +31,7 @@
 >
   <p class="text-black dark:text-white text-sm md:text-base lg:text-lg">
     {$t('welcome_modal.we_at')}
-    <a href="https://app.rebuildyou.uk/" class="text-primary-700 no-underline hover:no-underline"
+    <a href="https://app.rebuildyou.co/" class="text-primary-700 no-underline hover:no-underline"
       >Rebuild You</a
     >
     {$t('welcome_modal.small_team')}
