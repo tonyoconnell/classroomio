@@ -158,6 +158,19 @@
             </a>
           {/if}
         {/each}
+          <a
+              href="https://rebuildyou.co/meet}"
+              class="text-black no-underline"
+              on:click={toggleSidebar}
+            >
+              <li
+                class="mb-1 flex items-center gap-2.5 px-2.5 py-2">
+                  <HomeIcon />
+                
+                <p class="text-sm font-medium">Live Class</p>
+              </li>
+            </a>
+
       </ul>
     </div>
     <span class="flex-grow" />
