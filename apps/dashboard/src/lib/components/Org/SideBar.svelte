@@ -159,7 +159,7 @@
           {/if}
         {/each}
           <a
-              href="https://rebuildyou.co/meet}"
+              href="https://rebuildyou.co/meet"
               class="text-black no-underline"
               on:click={toggleSidebar}
             >
