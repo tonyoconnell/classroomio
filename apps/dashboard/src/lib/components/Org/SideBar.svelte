@@ -165,7 +165,7 @@
             >
               <li
                 class="mb-1 flex items-center gap-2.5 px-2.5 py-2">
-                  <HomeIcon />
+                  <QuizIcon />
                 
                 <p class="text-sm font-medium">Live Class</p>
               </li>
