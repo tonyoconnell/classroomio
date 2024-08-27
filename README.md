@@ -1,13 +1,3 @@
-<a href="https://rebuildyou.co/">
-  <img alt="Rebuild You." src="https://raw.githubusercontent.com/rotimi-best/classroomio/main/apps/classroomio-com/static/classroomio-opengraph-image.png" />
-  <h1 align="center">Rebuild You</h1>
-  <p align="center">
-    Launch Your Online Bootcamp In Minutes
-    <br />
-    <a href="https://rebuildyou.co">Website</a>  |  <a href="https://dub.sh/ciodiscord">Join Discord community</a>
-  </p>
-</a>
-  x
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/629e2bb8994345729513c4d69ccbe3d5)](https://app.codacy.com/gh/rotimi-best/classroomio?utm_source=github.com&utm_medium=referral&utm_content=rotimi-best/classroomio&utm_campaign=Badge_Grade)
 
 ## ✨ About Rebuild You.com
