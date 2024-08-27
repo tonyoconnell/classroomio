@@ -1,5 +1,5 @@
 <a href="https://rebuildyou.co/">
-  <img alt="Rebuild You is a no-code tool that allows you build and scale your online bootcamp with ease." src="https://raw.githubusercontent.com/rotimi-best/classroomio/main/apps/classroomio-com/static/classroomio-opengraph-image.png" />
+  <img alt="Rebuild You." src="https://raw.githubusercontent.com/rotimi-best/classroomio/main/apps/classroomio-com/static/classroomio-opengraph-image.png" />
   <h1 align="center">Rebuild You</h1>
   <p align="center">
     Launch Your Online Bootcamp In Minutes
