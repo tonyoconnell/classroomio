@@ -17,6 +17,6 @@ export const initPosthog = (): void => {
   if (dev) return;
 
   posthog.init('phc_JBCPGk7bgT9CLOS6uUCSqNGz1HViiIIgW1tiwUtPXu1', {
-    api_host: 'https://eu.posthog.com'
+    api_host: 'https://us.posthog.com'
   });
 };
