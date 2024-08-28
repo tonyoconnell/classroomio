@@ -475,7 +475,11 @@
         "title": "Markierungen",
         "student": "Student",
         "total": "Gesamt",
-        "no_student": "Kein Student hinzugefügt"
+        "no_student": "Kein Student hinzugefügt",
+        "export": {
+          "csv": "Als CSV exportieren",
+          "pdf": "Als PDF exportieren"
+        }
       },
       "submissions": {
         "title": "Eingereichte Übungen",
@@ -497,7 +501,10 @@
           "accept_grade": "Akzeptieren",
           "reject_grade": "Ablehnen",
           "add_comment_placeholder": "Hinterlasse einen Kommentar",
-          "questions_tried": "Diese Punktzahl wurde aufgrund der Gesamtzahl der Versuche vergeben:"
+          "questions_tried": "Diese Punktzahl wurde aufgrund der Gesamtzahl der Versuche vergeben:",
+          "delete_prompt": "Löschen",
+          "delete_error": "Die Übermittlung konnte nicht gelöscht werden",
+          "delete_success": "Einreichung erfolgreich gelöscht"
         }
       },
       "attendance": {
@@ -735,12 +742,6 @@
           "materials": "Materialien",
           "exercises": "Übungen"
         },
-        "delete_lesson": {
-          "modal_heading": "Löschen",
-          "content": "Sind Sie sicher, dass Sie löschen möchten:",
-          "no": "NEIN",
-          "yes": "Ja"
-        },
         "add_lesson": {
           "button_title": "Hinzufügen",
           "modal_heading": "Neue Lektion hinzufügen",
@@ -753,7 +754,10 @@
           "lock": "Sperren",
           "unlock": "Freischalten",
           "start_reorder": "Neu anordnen",
-          "end_reorder": "Nachbestellung beenden"
+          "end_reorder": "Nachbestellung beenden",
+          "modal_heading_section": "Neuen Abschnitt hinzufügen",
+          "lesson_section_title": "Abschnittstitel",
+          "cancel": "Stornieren"
         },
         "disabled": "Funktion ist deaktiviert",
         "next": "Nächste",
@@ -766,7 +770,16 @@
         },
         "drag": "Ziehen Sie eine Karte, um sie neu anzuordnen",
         "no_lesson": "Noch kein Unterricht",
-        "share_your_knowledge": "Teilen Sie Ihr Wissen mit der Welt, indem Sie ansprechende Lektionen erstellen. Klicken Sie zunächst auf die Schaltfläche „Hinzufügen“."
+        "share_your_knowledge": "Teilen Sie Ihr Wissen mit der Welt, indem Sie ansprechende Lektionen erstellen. Klicken Sie zunächst auf die Schaltfläche „Hinzufügen“.",
+        "heading_v2": "Inhalt",
+        "section_prompt": {
+          "cta": "Abschnitte aktivieren",
+          "header": "Abschnitte aktivieren",
+          "title": "Wir haben Kursabschnitte eingeführt",
+          "description": "Sie können Lektionen jetzt in Abschnitte gruppieren, um Ihre Inhalte zu organisieren und das Lernen für Ihre Schüler reibungsloser zu gestalten.",
+          "activate": "Aktivieren",
+          "cancel": "Stornieren"
+        }
       },
       "news_feed": {
         "heading": "Neuigkeiten",
@@ -797,14 +810,14 @@
     },
     "navItems": {
       "nav_news_feed": "Neuigkeiten",
-      "nav_lessons": "Unterricht",
       "nav_attendance": "Teilnahme",
       "nav_submissions": "Einsendungen",
       "nav_marks": "Markierungen",
       "nav_people": "Menschen",
       "nav_certificates": "Zertifikate",
       "nav_landing_page": "Landingpage",
-      "nav_settings": "Einstellungen"
+      "nav_settings": "Einstellungen",
+      "nav_content": "Inhalt"
     },
     "not_permitted": {
       "header": "Keine Erlaubnis",
@@ -1069,7 +1082,9 @@
       "plan": "Ihr Plan beinhaltet coole Vergünstigungen und Vorteile, einschließlich Zugriff auf alle zukünftigen Funktionen, die wir veröffentlichen.",
       "close": "Schließen",
       "learn": "Erfahren Sie mehr",
-      "month": "Monat"
+      "month": "Monat",
+      "monthly": "Monatlich",
+      "annually": "Jährlich"
     },
     "plan_names": {
       "free": "Frei",
@@ -1388,5 +1403,11 @@
     "empty_heading": "Kein Kurs verfügbar",
     "empty_description": "Derzeit sind keine veröffentlichten Kurse verfügbar",
     "heading": "Entdecken Sie unsere Kurse"
+  },
+  "delete_modal": {
+    "label": "Löschen",
+    "content": "Bist du sicher?",
+    "no": "NEIN",
+    "yes": "Ja"
   }
 }

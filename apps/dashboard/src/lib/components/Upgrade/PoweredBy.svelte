@@ -1,6 +1,7 @@
 <script>
-  import { currentOrg, isFreePlan } from '$lib/utils/store/org';
   import { ArrowUpRight } from 'carbon-icons-svelte';
-</script>
 
+  import { t } from '$lib/utils/functions/translations';
+  import { currentOrg, isFreePlan } from '$lib/utils/store/org';
+</script>
 

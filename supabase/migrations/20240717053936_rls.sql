@@ -983,20 +983,17 @@ with check ((id = ( SELECT organizationmember.organization_id
  LIMIT 1)));
 
 
-create policy "User must be an admin to UPDATE"
+create policy "User must be admin to UPDATE"
 on "public"."organization"
 as permissive
 for update
 to public
-using ((id = ( SELECT organizationmember.organization_id
+using ((id in ( SELECT organizationmember.organization_id
    FROM organizationmember
-  WHERE ((organizationmember.profile_id = ( SELECT auth.uid() AS uid)) AND (organizationmember.role_id = 1))
- LIMIT 1)))
-with check ((id = ( SELECT organizationmember.organization_id
+  WHERE ((organizationmember.profile_id = ( SELECT auth.uid() AS uid)) AND (organizationmember.role_id = 1)))))
+with check ((id in ( SELECT organizationmember.organization_id
    FROM organizationmember
-  WHERE ((organizationmember.profile_id = ( SELECT auth.uid() AS uid)) AND (organizationmember.role_id = 1))
- LIMIT 1)));
-
+  WHERE ((organizationmember.profile_id = ( SELECT auth.uid() AS uid)) AND (organizationmember.role_id = 1)))));
 
 create policy "User must be an org member to DELETE"
 on "public"."organization_plan"
@@ -1036,7 +1033,7 @@ on "public"."organizationmember"
 as permissive
 for select
 to public
-using ((auth.uid() = profile_id));
+using ((auth.uid() IS NOT NULL));
 
 
 create policy "Enable insert for authenticated users only"
@@ -1153,12 +1150,12 @@ to public
 using ((auth.uid() IS NOT NULL));
 
 
-create policy "User must be an org member to DELETE"
+create policy "User must be an course member to DELETE"
 on "public"."question_answer"
 as permissive
 for delete
 to public
-using (is_user_in_group_with_role(( SELECT course.group_id
+using (is_user_in_course_group(( SELECT course.group_id
    FROM course
   WHERE (course.id = ( SELECT lesson.course_id
            FROM lesson
@@ -1173,12 +1170,12 @@ using (is_user_in_group_with_role(( SELECT course.group_id
  LIMIT 1)));
 
 
-create policy "User must be an org member to INSERT"
+create policy "User must be an course member to INSERT"
 on "public"."question_answer"
 as permissive
 for insert
 to public
-with check (is_user_in_group_with_role(( SELECT course.group_id
+with check (is_user_in_course_group(( SELECT course.group_id
    FROM course
   WHERE (course.id = ( SELECT lesson.course_id
            FROM lesson
@@ -1193,12 +1190,12 @@ with check (is_user_in_group_with_role(( SELECT course.group_id
  LIMIT 1)));
 
 
-create policy "User must be an org member to UPDATE"
+create policy "User must be an course member to UPDATE"
 on "public"."question_answer"
 as permissive
 for update
 to public
-using (is_user_in_group_with_role(( SELECT course.group_id
+using (is_user_in_course_group(( SELECT course.group_id
    FROM course
   WHERE (course.id = ( SELECT lesson.course_id
            FROM lesson
@@ -1211,7 +1208,7 @@ using (is_user_in_group_with_role(( SELECT course.group_id
                  LIMIT 1))
          LIMIT 1))
  LIMIT 1)))
-with check (is_user_in_group_with_role(( SELECT course.group_id
+with check (is_user_in_course_group(( SELECT course.group_id
    FROM course
   WHERE (course.id = ( SELECT lesson.course_id
            FROM lesson

@@ -76,6 +76,9 @@
       if (addedMember.error) {
         console.error('Error adding student to group', courseData.group_id, addedMember.error);
         snackbar.error('snackbar.invite.failed_join');
+
+        // Full page load to lms if error joining, probably user already joined
+        window.location.href = '/lms';
         return;
       }
 
@@ -92,13 +95,17 @@
         courseName: data.name
       });
 
-      // Send notification to teacher(s) that a student has joined the course.
-      triggerSendEmail(NOTIFICATION_NAME.TEACHER_STUDENT_JOINED, {
-        to: teachers[0],
-        courseName: data.name,
-        studentName: $profile.fullname,
-        studentEmail: $profile.email
-      });
+      // Send notification to all teacher(s) that a student has joined the course.
+      Promise.all(
+        teachers.map((email) =>
+          triggerSendEmail(NOTIFICATION_NAME.TEACHER_STUDENT_JOINED, {
+            to: email,
+            courseName: data.name,
+            studentName: $profile.fullname,
+            studentEmail: $profile.email
+          })
+        )
+      );
 
       // go to lms
       return goto('/lms');

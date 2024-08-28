@@ -475,7 +475,11 @@
         "title": "Marcas",
         "student": "Alumno",
         "total": "Total",
-        "no_student": "No se agregó ningún estudiante"
+        "no_student": "No se agregó ningún estudiante",
+        "export": {
+          "csv": "Exportar como CSV",
+          "pdf": "Exportar como PDF"
+        }
       },
       "submissions": {
         "title": "Ejercicios enviados",
@@ -497,7 +501,10 @@
           "accept_grade": "Aceptar",
           "reject_grade": "Rechazar",
           "add_comment_placeholder": "Deja un comentario",
-          "questions_tried": "Se asignó esta puntuación debido al total de intentos:"
+          "questions_tried": "Se asignó esta puntuación debido al total de intentos:",
+          "delete_prompt": "Borrar",
+          "delete_error": "No se pudo eliminar el envío",
+          "delete_success": "Envío eliminado correctamente"
         }
       },
       "attendance": {
@@ -735,12 +742,6 @@
           "materials": "Materiales",
           "exercises": "Ejercicios"
         },
-        "delete_lesson": {
-          "modal_heading": "Borrar",
-          "content": "Estas seguro que quieres borrarlo:",
-          "no": "No",
-          "yes": "Sí"
-        },
         "add_lesson": {
           "button_title": "Agregar",
           "modal_heading": "Agregar nueva lección",
@@ -753,7 +754,10 @@
           "lock": "Cerrar",
           "unlock": "desbloquear",
           "start_reorder": "Reordenar",
-          "end_reorder": "Finalizar reorden"
+          "end_reorder": "Finalizar reorden",
+          "modal_heading_section": "Agregar nueva sección",
+          "lesson_section_title": "Título de la sección",
+          "cancel": "Cancelar"
         },
         "disabled": "La característica está deshabilitada",
         "next": "Próximo",
@@ -766,7 +770,16 @@
         },
         "drag": "arrastra una tarjeta para reordenar",
         "no_lesson": "Aún no hay lecciones",
-        "share_your_knowledge": "Comparta sus conocimientos con el mundo creando lecciones interesantes. Comience haciendo clic en el botón Agregar."
+        "share_your_knowledge": "Comparta sus conocimientos con el mundo creando lecciones interesantes. Comience haciendo clic en el botón Agregar.",
+        "heading_v2": "Contenido",
+        "section_prompt": {
+          "cta": "Habilitar secciones",
+          "header": "Habilitar secciones",
+          "title": "Lanzamos secciones del curso",
+          "description": "Ahora puede agrupar lecciones en secciones para organizar su contenido y facilitar el aprendizaje de sus alumnos.",
+          "activate": "Activar",
+          "cancel": "Cancelar"
+        }
       },
       "news_feed": {
         "heading": "Noticias",
@@ -797,14 +810,14 @@
     },
     "navItems": {
       "nav_news_feed": "Noticias",
-      "nav_lessons": "Lecciones",
       "nav_attendance": "Asistencia",
       "nav_submissions": "Envíos",
       "nav_marks": "Marcas",
       "nav_people": "Gente",
       "nav_certificates": "Certificados",
       "nav_landing_page": "Página de destino",
-      "nav_settings": "Ajustes"
+      "nav_settings": "Ajustes",
+      "nav_content": "Contenido"
     },
     "not_permitted": {
       "header": "Sin autorización",
@@ -1069,7 +1082,9 @@
       "plan": "Su plan viene con ventajas y beneficios interesantes, incluido el acceso a todas las funciones futuras que lancemos.",
       "close": "Cerca",
       "learn": "Aprende más",
-      "month": "mes"
+      "month": "mes",
+      "monthly": "Mensual",
+      "annually": "Anualmente"
     },
     "plan_names": {
       "free": "Gratis",
@@ -1388,5 +1403,11 @@
     "empty_heading": "No hay curso disponible",
     "empty_description": "Actualmente no hay ningún curso publicado disponible",
     "heading": "Explora nuestros cursos"
+  },
+  "delete_modal": {
+    "label": "Borrar",
+    "content": "¿Está seguro?",
+    "no": "No",
+    "yes": "Sí"
   }
 }

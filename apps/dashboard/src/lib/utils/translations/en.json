@@ -10,6 +10,13 @@
     "snackbar_error": "error while sending code"
   },
 
+  "delete_modal": {
+    "label": "Delete",
+    "content": "Are you sure?",
+    "no": "No",
+    "yes": "Yes"
+  },
+
   "onboarding": {
     "sell": "Sell courses online",
     "teach": "Teach my current students online",
@@ -219,7 +226,9 @@
       "plan": "Your plan comes with cool perks and benefits including access to all future features we release.",
       "close": "Close",
       "learn": "Learn more",
-      "month": "month"
+      "month": "month",
+      "monthly": "Monthly",
+      "annually": "Annually"
     }
   },
 
@@ -455,7 +464,7 @@
   "course": {
     "navItems": {
       "nav_news_feed": "News Feed",
-      "nav_lessons": "Lessons",
+      "nav_content": "Content",
       "nav_attendance": "Attendance",
       "nav_submissions": "Submissions",
       "nav_marks": "Marks",
@@ -495,28 +504,34 @@
 
       "lessons": {
         "heading": "Lessons",
+        "heading_v2": "Content",
         "drag": "drag a card to reorder",
         "no_lesson": "No lessons yet",
         "share_your_knowledge": "Share your knowledge with the world by creating engaging lessons. Start by clicking on the Add button.",
+        "section_prompt": {
+          "cta": "Enable Sections",
+          "header": "Enable Sections",
+          "title": "We Launched Course Sections",
+          "description": "You can now group lessons into sections to organize your content and make learning smoother for your students.",
+          "activate": "Activate",
+          "cancel": "Cancel"
+        },
         "add_lesson": {
           "button_title": "Add",
           "start_reorder": "Reorder",
           "end_reorder": "End Reorder",
           "modal_heading": "Add New Lesson",
+          "modal_heading_section": "Add New Section",
           "lesson_title": "Lesson Title",
+          "lesson_section_title": "Section Title",
           "click_to": "Click to",
           "lock": "Lock",
           "unlock": "Unlock",
           "fullname": "fullname",
           "save": "Save",
           "edit": "Edit",
-          "delete": "Delete"
-        },
-        "delete_lesson": {
-          "modal_heading": "Delete",
-          "content": "Are you sure you want to delete:",
-          "no": "No",
-          "yes": "Yes"
+          "delete": "Delete",
+          "cancel": "Cancel"
         },
         "join_lesson": "Join lesson",
         "no_link": "No link",
@@ -787,7 +802,10 @@
           "submit_grades": "Submit Grades",
           "accept_grade": "Accept",
           "reject_grade": "Reject",
-          "questions_tried": "Allocated this score because of total tries:"
+          "questions_tried": "Allocated this score because of total tries:",
+          "delete_prompt": "Delete",
+          "delete_error": "Failed to delete submission",
+          "delete_success": "Successfully deleted submission"
         }
       },
 
@@ -795,6 +813,10 @@
         "title": "Marks",
         "student": "Student",
         "total": "Total",
+        "export": {
+          "csv": "Export as CSV",
+          "pdf": "Export as PDF"
+        },
         "no_student": "No Student Added"
       },
 
@@ -1336,8 +1358,8 @@
   "validations": {
     "user_profile": {
       "email": "Invalid email address",
-      "username":"Username cannot be empty",
-      "fullname":"Name should be minimum of 5 characters"
+      "username": "Username cannot be empty",
+      "fullname": "Name should be minimum of 5 characters"
     },
     "organization_name": {
       "min_char": "Organization must contain 5 or more characters",

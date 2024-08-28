@@ -475,7 +475,11 @@
         "title": "Điểm",
         "student": "Học sinh",
         "total": "Tổng cộng",
-        "no_student": "Không có sinh viên nào được thêm vào"
+        "no_student": "Không có sinh viên nào được thêm vào",
+        "export": {
+          "csv": "Xuất dưới dạng CSV",
+          "pdf": "Xuất dưới dạng PDF"
+        }
       },
       "submissions": {
         "title": "Bài tập đã gửi",
@@ -497,7 +501,10 @@
           "accept_grade": "Chấp nhận",
           "reject_grade": "Từ chối",
           "add_comment_placeholder": "Để lại một bình luận",
-          "questions_tried": "Phân bổ số điểm này dựa trên tổng số lần thử:"
+          "questions_tried": "Phân bổ số điểm này dựa trên tổng số lần thử:",
+          "delete_prompt": "Xóa bỏ",
+          "delete_error": "Không thể xóa bài nộp",
+          "delete_success": "Đã xóa bài nộp thành công"
         }
       },
       "attendance": {
@@ -735,12 +742,6 @@
           "materials": "Nguyên vật liệu",
           "exercises": "Bài tập"
         },
-        "delete_lesson": {
-          "modal_heading": "Xóa bỏ",
-          "content": "Bạn có chắc chắn muốn xóa:",
-          "no": "KHÔNG",
-          "yes": "Đúng"
-        },
         "add_lesson": {
           "button_title": "Thêm vào",
           "modal_heading": "Thêm bài học mới",
@@ -753,7 +754,10 @@
           "lock": "Khóa",
           "unlock": "Mở khóa",
           "start_reorder": "Sắp xếp lại",
-          "end_reorder": "Kết thúc sắp xếp lại"
+          "end_reorder": "Kết thúc sắp xếp lại",
+          "modal_heading_section": "Thêm phần mới",
+          "lesson_section_title": "Tiêu đề phần",
+          "cancel": "Hủy bỏ"
         },
         "disabled": "Tính năng bị vô hiệu hóa",
         "next": "Kế tiếp",
@@ -766,7 +770,16 @@
         },
         "drag": "kéo thẻ để sắp xếp lại",
         "no_lesson": "Chưa có bài học nào",
-        "share_your_knowledge": "Chia sẻ kiến ​​thức của bạn với thế giới bằng cách tạo ra những bài học hấp dẫn. Bắt đầu bằng cách nhấp vào nút Thêm."
+        "share_your_knowledge": "Chia sẻ kiến ​​thức của bạn với thế giới bằng cách tạo ra những bài học hấp dẫn. Bắt đầu bằng cách nhấp vào nút Thêm.",
+        "heading_v2": "Nội dung",
+        "section_prompt": {
+          "cta": "Bật phần",
+          "header": "Bật phần",
+          "title": "Chúng tôi đã ra mắt các phần khóa học",
+          "description": "Giờ đây, bạn có thể nhóm các bài học thành các phần để sắp xếp nội dung và giúp học sinh học tập suôn sẻ hơn.",
+          "activate": "Kích hoạt",
+          "cancel": "Hủy bỏ"
+        }
       },
       "news_feed": {
         "heading": "Nguồn cấp tin tức",
@@ -797,14 +810,14 @@
     },
     "navItems": {
       "nav_news_feed": "Nguồn cấp tin tức",
-      "nav_lessons": "Những bài học",
       "nav_attendance": "Sự tham dự",
       "nav_submissions": "bài nộp",
       "nav_marks": "Điểm",
       "nav_people": "Mọi người",
       "nav_certificates": "Chứng chỉ",
       "nav_landing_page": "Trang đích",
-      "nav_settings": "Cài đặt"
+      "nav_settings": "Cài đặt",
+      "nav_content": "Nội dung"
     },
     "not_permitted": {
       "header": "Không cho phép",
@@ -1069,7 +1082,9 @@
       "plan": "Gói của bạn đi kèm với các đặc quyền và lợi ích thú vị, bao gồm quyền truy cập vào tất cả các tính năng trong tương lai mà chúng tôi sẽ phát hành.",
       "close": "Đóng",
       "learn": "Tìm hiểu thêm",
-      "month": "tháng"
+      "month": "tháng",
+      "monthly": "hàng tháng",
+      "annually": "Hàng năm"
     },
     "plan_names": {
       "free": "Miễn phí",
@@ -1388,5 +1403,11 @@
     "empty_heading": "Không có khóa học nào",
     "empty_description": "Hiện tại chưa có khóa học nào được xuất bản",
     "heading": "Khám phá các khóa học của chúng tôi"
+  },
+  "delete_modal": {
+    "label": "Xóa bỏ",
+    "content": "Bạn có chắc không?",
+    "no": "KHÔNG",
+    "yes": "Đúng"
   }
 }
