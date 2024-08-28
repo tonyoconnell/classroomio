@@ -252,7 +252,7 @@
           <p class="dark:text-white text-sm font-light mb-3">
             {$t('course.navItem.landing_page.certificate_text')}
           </p>
-          <img src="/images/certificate-template.svg" alt="certificate template" />
+          <img src="/images/certificate-template.png" alt="certificate template" />
         </section>
 
         <!-- Sections - Lessons -->
