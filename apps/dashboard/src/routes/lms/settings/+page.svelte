@@ -13,13 +13,6 @@
       label: $t('settings.tabs.profile_tab'),
       tabKey: '',
       href: $page.url.pathname
-    },
-    {
-      key: 1,
-      label: $t('settings.tabs.integrations_tab'),
-      tabKey: 'integrations',
-      href: `${$page.url.pathname}?tab=integrations`,
-      disabled: false
     }
   ];
 </script>
@@ -39,9 +32,7 @@
           <TabContent>
             <Profile />
           </TabContent>
-          <TabContent>
-            <Integrations />
-          </TabContent>
+   
         </svelte:fragment>
       </Tabs>
     </div>
