@@ -104,8 +104,7 @@
     </form>
   {:else if step === STEPS.STEP_2}
     <p>
-      You will now be taken to a payment page, once you've paid send a proof of payment to the
-      course admin
+      Proceed to payment page
     </p>
     <div class="mt-5 flex items-center flex-row-reverse">
       <Link href={paymentLink} target="_blank" on:click={onClickPaymentLink}>Go to payment</Link>
