@@ -1,35 +1,6 @@
 <script>
   import { onMount } from 'svelte';
-  import FlowStreamReferenceIcon from 'carbon-icons-svelte/lib/FlowStreamReference.svelte';
-  import ChartClusterBarIcon from 'carbon-icons-svelte/lib/ChartClusterBar.svelte';
-  import MachineLearningModelIcon from 'carbon-icons-svelte/lib/MachineLearningModel.svelte';
-  import TextField from '$lib/components/Form/TextField.svelte';
   import PrimaryButton from '$lib/components/PrimaryButton/index.svelte';
-  import { getSupabase } from '$lib/utils/functions/supabase';
-  import { validateEmail } from '$lib/utils/functions/validateEmail';
-  import LoginForm from '$lib/components/AuthUI/LoginForm.svelte';  // Import the LoginForm component
-
-  let email = '';
-  let isAdding = false;
-  let success = false;
-
-  const supabase = getSupabase();
-  const animate = 'transition delay-75 duration-300 ease-in-out';
-
-  async function handleSubmit() {
-    if (!email || !validateEmail(email)) return;
-    isAdding = true;
-
-    await supabase.from('waitinglist').insert([{ email }]);
-
-    success = true;
-
-    setTimeout(() => {
-      isAdding = false;
-      success = false;
-      email = '';
-    }, 5000);
-  }
 
   onMount(() => {
     console.log('Welcome to Rebuild You');
@@ -40,11 +11,29 @@
   <title>Rebuild You</title>
 </svelte:head>
 
-<div class="md:h-[93vh] w-screen flex items-center justify-center flex-col m-2 sm:m-0 font-sans">
-  <div class="flex flex-col md:flex-row mt-4">
-    <!-- Your existing content here -->
+<div class="min-h-screen w-full bg-gradient-to-br from-blue-500 to-purple-600 flex flex-col items-center justify-center font-sans p-4">
+  <div class="bg-white rounded-3xl shadow-2xl p-8 flex flex-col items-center max-w-md w-full">
+    <!-- Logo -->
+    <img src="/logo-192.png" alt="Rebuild You Logo" class="mb-8 w-32 h-auto" />
+    
+    <h1 class="text-3xl font-bold mb-6 text-center">Welcome to Rebuild You</h1>
+    
+    <!-- Buttons -->
+    <div class="flex flex-col items-center gap-4 w-full">
+      <a href="/login" class="w-full">
+        <PrimaryButton className="w-full max-w-xs mx-auto py-3 text-lg font-semibold transition-transform hover:scale-105">
+          I am a teacher
+        </PrimaryButton>
+      </a>
+      <a href="https://learn.rebuildyou.co" class="w-full">
+        <PrimaryButton className="w-full max-w-xs mx-auto py-3 text-lg font-semibold transition-transform hover:scale-105">
+          I am a student
+        </PrimaryButton>
+      </a>
+    </div>
   </div>
   
-  <!-- Add the LoginForm component -->
-  <LoginForm />
+  <footer class="mt-8 text-white/80 text-sm">
+    © 2024 Rebuild You. All rights reserved.
+  </footer>
 </div>

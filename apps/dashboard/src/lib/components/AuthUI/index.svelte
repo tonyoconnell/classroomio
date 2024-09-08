@@ -74,20 +74,7 @@
       >
         <slot />
       </form>
-      {#if !showOnlyContent && !hideGoogleAuth}
-        <div class="w-10/12 mb-3">
-          <p class="dark:text-white text-sm mb-5">or sign up with:</p>
-          <PrimaryButton
-            variant={VARIANTS.OUTLINED}
-            onClick={signInWithGoogle}
-            isDisabled={isLoading}
-            className="py-3 sm:w-full w-full"
-          >
-            <GoogleIconColored />
-            <span class="ml-2">{isLogin ? 'Sign in' : 'Sign up'} with Google</span>
-          </PrimaryButton>
-        </div>
-      {/if}
+    
     </div>
     {#if !showOnlyContent}
       <div class="w-full p-6 border-t border-grey text-center">
