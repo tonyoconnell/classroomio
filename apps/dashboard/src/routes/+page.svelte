@@ -32,7 +32,7 @@
   }
 
   onMount(() => {
-    console.log('Welcome to CIO');
+    console.log('Welcome to Rebuild You');
   });
 </script>
 
