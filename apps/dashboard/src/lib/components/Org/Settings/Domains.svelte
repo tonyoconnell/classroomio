@@ -110,15 +110,5 @@
     </Column>
   </Row>
 
-  <Row class="py-7 border-bottom-c">
-    <Column sm={2} md={2} lg={4} class="text-lg"
-      ><SectionTitle>{$t('components.settings.domains.custom')}</SectionTitle></Column
-    >
-    <Column sm={2} md={6} lg={8}>
-      <div class="flex items-center">
-        <p class="dark:text-white mr-3">{$t('components.settings.domains.domain')}</p>
-        <ComingSoon />
-      </div>
-    </Column>
-  </Row>
+
 </Grid>
