@@ -50,6 +50,12 @@
     grade = 0;
   }
 
+  function preventCopyPaste(event: ClipboardEvent) {
+    event.preventDefault();
+    // Optionally, you can add a funny message here
+    alert("Nice try, but you need to do the question yourself. No copy and paste! 🍝❌");
+  }
+
   $: gradeWithAI = isGradeWithAI;
 </script>
 
@@ -84,6 +90,9 @@
         bind:value={defaultValue}
         rows={5}
         placeholder={$t('course.navItem.lessons.exercises.all_exercises.write_your_answer_here')}
+        on:paste={preventCopyPaste}
+        on:copy={preventCopyPaste}
+        readonly={false}
       />
     {/if}
   </div>
