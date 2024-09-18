@@ -37,3 +37,10 @@ export function orderedTabs(tabs, settingTabs) {
   const filteredReorderedTabs = reorderedTabs.filter((tab) => tab !== undefined);
   return filteredReorderedTabs;
 }
+
+export const MATERIAL_TYPES = {
+  NOTE: 'note',
+  SLIDE: 'slide',
+  VIDEO: 'video',
+  PDF: 'pdf'
+};

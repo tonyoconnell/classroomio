@@ -309,7 +309,7 @@
       "quiz_delete": "Delete Quiz",
       "delete_question": "Are you sure you want to delete this question?",
       "delete_quiz": "Are you sure you want to delete this quiz?",
-      "lose_content": "You will lose your content and this action can’t be undone.",
+      "lose_content": "You will lose your content and this action can't be undone.",
       "delete": "Delete",
       "update": "Update",
       "create": "Create",
@@ -397,7 +397,7 @@
     "continue": "Continue",
     "no_courses": "No courses in progress yet",
     "start_course": "Once you start a course, your progress will reflect here",
-    "lms_dashboard_hero": "Today is another day to bring you closer to your learning goals. Don’t give up, the more you learn the better you get.",
+    "lms_dashboard_hero": "Today is another day to bring you closer to your learning goals. Don't give up, the more you learn the better you get.",
     "dont": "Don't give up",
     "lessons_completed": "Lessons completed",
     "No_courses_started": "No courses started"
@@ -587,18 +587,25 @@
                 "upload_video": "Upload Video",
                 "select_file": "Select file( Mp4, MOV, AVI) to upload to your lesson.",
                 "size": "(Max 500 MB)",
-                "oops": "Oops `😬, couldn’t upload video",
-                "big_file": "Sorry we video wasn’t uploaded. The file size is too big,",
+                "oops": "Oops `😬, couldn't upload video",
+                "big_file": "Sorry we video wasn't uploaded. The file size is too big,",
                 "maximum_size": "maximum size is 30 MB. Try again!",
                 "button": "Try another file",
                 "try_again": "Please try again",
-                "unsupported_format": "Sorry we video wasn’t uploaded, the file format isn’t supported or something went wrong on the server.",
+                "unsupported_format": "Sorry we video wasn't uploaded, the file format isn't supported or something went wrong on the server.",
                 "format": "Upload MP4, MOV and AVI files.",
                 "upgrade": "Upgrade your plan to upload vidoes",
                 "uploading": "Uploading...",
                 "invalid_youtube": "Invalid YouTube link(s)",
                 "invalid_link": "Invalid link(s)"
               }
+            },
+            "pdf": {
+              "upload": "Upload PDF",
+              "uploading": "Uploading...",
+              "uploaded": "Uploaded PDF",
+              "no_file": "Please select a PDF file to upload.",
+              "upload_success": "PDF uploaded successfully!"
             }
           },
           "button_done": "Done"

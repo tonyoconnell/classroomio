@@ -43,6 +43,8 @@
   import { supabase } from '$lib/utils/functions/supabase';
   import type { LOCALE } from '$lib/utils/types';
   import Loader from './Loader.svelte';
+  import PDFUploader from './PDFUploader.svelte';
+  import { MATERIAL_TYPES } from './constants';
 
   export let mode = MODES.view;
   export let prevMode = '';
@@ -288,6 +290,14 @@
     return componentNames;
   }
 
+  function handlePDFUpload(event: CustomEvent<{ url: string }>) {
+    $lesson.materials = {
+      ...$lesson.materials,
+      pdf: { url: event.detail.url, type: MATERIAL_TYPES.PDF }
+    };
+    $isLessonDirty = true;
+  }
+
   $: autoSave($lesson.materials, $lessonByTranslation[lessonId], $isLoading, lessonId);
 
   $: onLessonIdChange(lessonId);
@@ -405,6 +415,15 @@
             bind:value={$lesson.materials.slide_url}
             onInputChange={() => ($isLessonDirty = true)}
             helperMessage={$t('course.navItem.lessons.materials.tabs.slide.helper_message')}
+          />
+          <div class="mt-4">
+            <PDFUploader url={$lesson.materials.pdf?.url} on:upload={handlePDFUpload} />
+          </div>
+          <TextField
+            label={$t('course.navItem.lessons.materials.tabs.pdf.uploaded')}
+            value={$lesson.materials.pdf?.url || ''}
+            readonly
+            className="mt-2"
           />
         {/if}
       </TabContent>
