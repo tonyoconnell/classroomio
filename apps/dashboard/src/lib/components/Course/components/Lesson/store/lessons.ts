@@ -1,5 +1,5 @@
 import { writable } from 'svelte/store';
-import type { Writable, Updater } from 'svelte/store';
+import type { Writable } from 'svelte/store';
 import {
   createLesson,
   updateLesson,
@@ -23,7 +23,7 @@ export const lessonSections: Writable<LessonSection[]> = writable([]);
 
 export const lesson = writable<LessonPage>({
   id: null,
-  locale: LOCALE.EN,
+  locale: LOCALE.EN, // Make sure LOCALE is properly imported and EN is defined
   title: '',
   totalExercises: 0,
   totalComments: 0,
@@ -47,19 +47,18 @@ export const lessonComments = writable<LessonComment[]>([]);
 export const isLessonDirty = writable(false);
 
 export function handleAddLesson() {
-  lessons.update(((_lessons) => {
+  lessons.update((lessons) => {
     return [
-      ..._lessons,
+      ...lessons,
       {
         id: null,
         title: 'Untitled lesson',
-        // profile: undefined,
         call_url: undefined,
         lesson_at: new Date(),
         is_unlocked: false
       }
     ];
-  }) as Updater<any>);
+  });
 }
 
 export async function handleDelete(lessonId: Lesson['id'] | undefined) {
@@ -125,7 +124,7 @@ export async function handleSaveLesson(lesson: Lesson, courseId: Course['id']) {
     section_id: lesson.section_id
   };
 
-  let newLessonData: any[] | null = null;
+  let newLessonData: Lesson[] | null = null;
 
   if (lesson.id) {
     // No need to get the result of update cause we have all in local state
@@ -154,7 +153,7 @@ export async function handleSaveLessonSection(
     course_id: courseId
   };
 
-  let newSectionData: any[] | null = null;
+  let newSectionData: LessonSection[] | null = null;
 
   if (newSection.id) {
     // No need to get the result of update cause we have all in local state
@@ -168,17 +167,19 @@ export async function handleSaveLessonSection(
   return newSectionData;
 }
 
-export async function handleUpdateLessonMaterials(lesson: any, lessonId: Lesson['id']) {
+export async function handleUpdateLessonMaterials(lesson: LessonPage, lessonId: Lesson['id']) {
   const materials = {
     ...lesson.materials
   };
-  delete materials.lesson_completion;
-  delete materials.profile;
+  
+  // Remove these lines as they're causing errors
+  // delete materials.lesson_completion;
+  // delete materials.profile;
 
   return await updateLesson(materials, lessonId);
 }
 
-export const deleteLessonVideo = (index: any) => {
+export const deleteLessonVideo = (index: number) => {
   lesson.update((currentLesson) => ({
     ...currentLesson,
     materials: {

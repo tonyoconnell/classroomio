@@ -419,12 +419,7 @@
           <div class="mt-4">
             <PDFUploader url={$lesson.materials.pdf?.url} on:upload={handlePDFUpload} />
           </div>
-          <TextField
-            label={$t('course.navItem.lessons.materials.tabs.pdf.uploaded')}
-            value={$lesson.materials.pdf?.url || ''}
-            readonly
-            className="mt-2"
-          />
+          
         {/if}
       </TabContent>
       <TabContent

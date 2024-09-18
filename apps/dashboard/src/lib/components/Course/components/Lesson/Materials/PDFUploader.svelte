@@ -71,3 +71,11 @@
     isDisabled={uploading}
   />
 </div>
+
+{#if url}
+  <div class="mt-2 text-sm text-gray-600">
+    <a href={url} target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">
+      {url.split('/').pop()}
+    </a>
+  </div>
+{/if}
