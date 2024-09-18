@@ -43,6 +43,7 @@
   import { supabase } from '$lib/utils/functions/supabase';
   import type { LOCALE } from '$lib/utils/types';
   import Loader from './Loader.svelte';
+  import PDFUploader from './components/PDFUploader.svelte';
 
   export let mode = MODES.view;
   export let prevMode = '';
@@ -68,6 +69,14 @@
   let componentsToRender = getComponentOrder(tabs);
   let aiButtonClass =
     'flex items-center px-5 py-2 border border-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-md w-full mb-2';
+
+  let pdfUrl: string | null = null;
+
+  function handlePDFUpload(event: CustomEvent<{ url: string }>) {
+    pdfUrl = event.detail.url;
+    $lesson.materials.slide_url = pdfUrl;
+    $isLessonDirty = true;
+  }
 
   const onChange = (tab) => {
     return () => {
@@ -404,8 +413,26 @@
             label={$t('course.navItem.lessons.materials.tabs.slide.slide_link')}
             bind:value={$lesson.materials.slide_url}
             onInputChange={() => ($isLessonDirty = true)}
-            helperMessage={$t('course.navItem.lessons.materials.tabs.slide.helper_message')}
+            helperMessage="You can embed Google Slides or Canva Presentation. New: Now you can add PDFs"
           />
+          <div class="mt-4">
+            <PDFUploader on:upload={handlePDFUpload} />
+          </div>
+          {#if pdfUrl}
+            <div class="mt-2">
+              <span class="text-sm text-gray-600">Uploaded PDF: {pdfUrl}</span>
+            </div>
+          {/if}
+        {:else}
+          {#if $lesson.materials.slide_url}
+            <div class="mt-4">
+              <PrimaryButton onClick={() => window.open($lesson.materials.slide_url, '_blank')}>
+                View Slide
+              </PrimaryButton>
+            </div>
+          {:else}
+            <p>No slide available</p>
+          {/if}
         {/if}
       </TabContent>
       <TabContent
