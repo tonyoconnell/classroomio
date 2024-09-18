@@ -424,15 +424,7 @@
             </div>
           {/if}
         {:else}
-          {#if $lesson.materials.slide_url}
-            <div class="mt-4">
-              <PrimaryButton onClick={() => window.open($lesson.materials.slide_url, '_blank')}>
-                View Slide
-              </PrimaryButton>
-            </div>
-          {:else}
-            <p>No slide available</p>
-          {/if}
+          <ComponentSlide {lessonId} />
         {/if}
       </TabContent>
       <TabContent
